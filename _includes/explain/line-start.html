@@ -1,0 +1,29 @@
+{%- comment -%}
+  Opens the card of line include.n: its head, the line with one button per
+  word, the reading and the translation. The prose after it in the page is
+  markdown (markdown="1"); explain/line-end.html closes the card.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign n = include.n -%}
+{%- assign l = page.lines[n] -%}
+<article class="line" id="line-{{ n }}" aria-labelledby="line-{{ n }}-h" markdown="1">
+<header class="line-head">
+  <h2 id="line-{{ n }}-h" class="label">{{ t.line }} {{ n }}</h2>
+  <span class="badge{% if l.verdict == 'valid' %} ok{% endif %}">{{ t.verdict[l.verdict] | default: l.verdict }}</span>
+</header>
+
+<p class="jp-line" lang="ja">
+{%- for w in l.words %}
+  <button type="button" class="tok pos-{{ w.pos }}" popovertarget="w{{ n }}-{{ forloop.index }}">{{ w.jp }}</button>
+{%- endfor %}
+</p>
+
+<p class="reading"><span lang="ja">{{ l.kana }}</span><span class="romaji">{{ l.romaji }}</span></p>
+
+<div class="translation">
+  <p class="natural">{{ l.natural | jp }}</p>
+  <p class="literal"><span class="tag">{{ t.literal }}</span>{{ l.literal | jp }}</p>
+{%- if l.joined %}
+  <p class="joined"><span class="tag">{{ t.with_line }} {{ l.joined.with }}</span>{{ l.joined.text | jp }}</p>
+{%- endif %}
+</div>

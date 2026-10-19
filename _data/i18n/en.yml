@@ -1,0 +1,33 @@
+# Interface text of the explanation pages written in English
+# (NNN/LLL-EXPLAIN-JEKYLL-en.md). Another language gets its own file.
+passage: Passage
+line: Line
+furigana_title: Show or hide furigana. While hidden, hover a word to peek.
+context: Context
+role:
+  explained: explained here
+  previous: previous
+  next: next
+hint: Click a word to see its explanation. <kbd>←</kbd> <kbd>→</kbd> move between words.
+pos:
+  noun: noun
+  verb: verb
+  adj: adjective
+  aux: auxiliary
+  particle: particle
+  conj: conjunction
+  other: other
+verdict:
+  valid: Valid
+  invalid: Not valid
+literal: Literal
+with_line: With line
+line_ref: line
+type: Type
+meaning: Meaning / function
+previous_word: Previous word
+next_word: Next word
+close: Close
+nav_label: Explanations
+all_lines: ← All lines
+of: of

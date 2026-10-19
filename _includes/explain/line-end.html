@@ -1,0 +1,30 @@
+{%- comment -%}
+  Closes the card of line include.n with one pop-up per word. ‹ and › step
+  through every word on the page, so they stop only at its first and last.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign n = include.n -%}
+{%- assign l = page.lines[n] -%}
+<!-- Word pop-ups for line {{ n }} -->
+{%- for w in l.words %}
+{%- assign id = "w" | append: n | append: "-" | append: forloop.index %}
+
+<div popover id="{{ id }}" class="pop pos-{{ w.pos }}">
+  <div class="pop-head">
+    <span class="pos-chip">{{ t.pos[w.pos] }}</span>
+    <span class="pop-count">{{ n }} · {{ forloop.index }}/{{ forloop.length }}</span>
+    <button type="button" class="pop-step" data-step="-1" aria-label="{{ t.previous_word }}"{% if forloop.first and n == page.first_line %} disabled{% endif %}>‹</button>
+    <button type="button" class="pop-step" data-step="1" aria-label="{{ t.next_word }}"{% if forloop.last and n == page.last_line %} disabled{% endif %}>›</button>
+    <button type="button" class="pop-close" popovertarget="{{ id }}" popovertargetaction="hide" aria-label="{{ t.close }}">×</button>
+  </div>
+  <p class="pop-word" lang="ja">{{ w.jp }}</p>
+  <p class="pop-reading"><span lang="ja">{{ w.kana }}</span><span class="romaji">{{ w.romaji }}</span></p>
+  <dl>
+    <dt>{{ t.type }}</dt>
+    <dd>{{ w.type | jp }}</dd>
+    <dt>{{ t.meaning }}</dt>
+    <dd>{{ w.meaning | jp }}</dd>
+  </dl>
+</div>
+{%- endfor %}
+</article>

@@ -1,0 +1,7 @@
+{%- assign s = include.step -%}
+{%- if s -%}
+{%- capture label %}<span class="pa-label">{{ s.name }}{% if s.text %} <span lang="ja">{{ s.text | escape }}</span>{% endif %}</span>{% endcapture -%}
+<a class="pa-step" rel="{{ include.rel }}" href="{{ s.url | relative_url }}" title="{{ s.name }}{% if s.text %} {{ s.text | escape }}{% endif %}">{% if include.rel == "prev" %}{{ include.arrow }} {{ label }}{% else %}{{ label }} {{ include.arrow }}{% endif %}</a>
+{%- else -%}
+<span class="pa-step pa-off">{{ include.arrow }}</span>
+{%- endif -%}

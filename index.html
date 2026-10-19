@@ -1,0 +1,31 @@
+---
+layout: default
+title: Passage Archiver
+css: [/assets/css/index.css]
+---
+{%- comment -%}
+  Every passage, line by line from its FULL.md (site.data.passages, from
+  _plugins/passages.rb); a line with an explanation page links to it.
+{%- endcomment -%}
+{%- assign explained = 0 -%}
+{%- for p in site.data.passages %}{% assign explained = explained | plus: p.explained %}{% endfor -%}
+<main class="wrap">
+<p class="label">Passage Archiver</p>
+<h1>Japanese passages, line by line</h1>
+<p class="lede">{% case explained %}{% when 0 %}No explanation pages yet.{% when 1 %}1 line has an HTML explanation. Linked lines open it.{% else %}{{ explained }} lines have an HTML explanation. Linked lines open it.{% endcase %}</p>
+{%- for p in site.data.passages %}
+<details class="passage" id="passage-{{ p.name }}"{% if p.explained > 0 %} open{% endif %}>
+<summary><span class="num">{{ p.name }}</span><span class="first" lang="ja">{{ p.first | escape }}</span><span class="count{% if p.explained > 0 %} has{% endif %}">{{ p.explained }} of {{ p.rows.size }} lines</span></summary>
+<ol class="lines">
+{%- for r in p.rows %}
+{%- capture cells %}<span class="n">{{ r.n }}</span><span class="t" lang="ja">{{ r.text | escape }}</span>{% endcapture %}
+{%- if r.url %}
+<li><a href="{{ r.url | relative_url }}">{{ cells }}</a></li>
+{%- else %}
+<li class="off"><span class="row">{{ cells }}</span></li>
+{%- endif %}
+{%- endfor %}
+</ol>
+</details>
+{%- endfor %}
+</main>

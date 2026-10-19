@@ -1,0 +1,3 @@
+{%- comment -%} The one-line verdict of line include.n, under "Is it valid Japanese?". {%- endcomment -%}
+{%- assign l = page.lines[include.n] -%}
+<p class="verdict">{% if l.chip %}<span class="chip">{{ l.chip }}</span>{% endif %}{{ l.summary | jp }}</p>
