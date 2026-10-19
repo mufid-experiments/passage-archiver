@@ -22,6 +22,7 @@ lines:
         pos: other
         kana: もしも
         romaji: moshimo
+        jisho: もしも
         type: adverb (<ruby>副<rt>ふく</rt>詞<rt>し</rt></ruby>), the emphatic form of もし
         meaning: >-
           “if, supposing, by any chance”: announces a conditional; its ending is たら on line 006
@@ -29,6 +30,7 @@ lines:
         pos: noun
         kana: それ
         romaji: sore
+        jisho: それ
         type: demonstrative pronoun (<ruby>指<rt>し</rt>示<rt>じ</rt>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “that, it”: points back to something already in mind (see Notes)
@@ -36,18 +38,21 @@ lines:
         pos: particle
         kana: が
         romaji: ga
+        jisho: が
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks それ as the subject of <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃない
       - jp: <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>
         pos: noun
         kana: しんじつ
         romaji: shinjitsu
+        jisho: 真実
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: truth; what is true, as opposed to what is false
       - jp: じゃ
         pos: aux
         kana: じゃ
         romaji: ja
+        jisho: じゃ
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: >-
@@ -56,6 +61,7 @@ lines:
         pos: aux
         kana: なく
         romaji: naku
+        jisho: ない
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃない = “is not the truth”
@@ -63,6 +69,7 @@ lines:
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…and”: links this clause to line 006, so that the conditional covers both

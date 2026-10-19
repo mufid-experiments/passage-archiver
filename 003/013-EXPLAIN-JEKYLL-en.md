@@ -19,30 +19,35 @@ lines:
         pos: noun
         kana: よあけ
         romaji: yoake
+        jisho: 夜明け
         type: noun, compound of <ruby>夜<rt>よ</rt></ruby> “night” + <ruby>明<rt>あ</rt></ruby>け (continuative of <ruby>明<rt>あ</rt></ruby>ける “(of night) end, (of day) break”)
         meaning: dawn, daybreak; here the time when the star shines, with に left out
       - jp: <ruby>光<rt>ひか</rt></ruby>る
         pos: verb
         kana: ひかる
         romaji: hikaru
+        jisho: 光る
         type: godan verb <ruby>光<rt>ひか</rt></ruby>る, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: to shine, to glitter; the clause (<ruby>夜<rt>よ</rt>明<rt>あ</rt></ruby>け)<ruby>光<rt>ひか</rt></ruby>る modifies <ruby>星<rt>ほし</rt></ruby>
       - jp: <ruby>星<rt>ほし</rt></ruby>
         pos: noun
         kana: ほし
         romaji: hoshi
+        jisho: 星
         type: noun
         meaning: star
       - jp: の
         pos: particle
         kana: の
         romaji: "no"
+        jisho: の
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: links <ruby>星<rt>ほし</rt></ruby> to ようだ (noun + の + ようだ)
       - jp: ように
         pos: aux
         kana: ように
         romaji: yō ni
+        jisho: ようだ
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ようだ, simile (<ruby>比<rt>ひ</rt>況<rt>きょう</rt></ruby>), continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, as”: an adverbial simile; the predicate it should modify is not on this line

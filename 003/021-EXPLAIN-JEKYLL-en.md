@@ -21,6 +21,7 @@ lines:
         pos: noun
         kana: それ
         romaji: sore
+        jisho: それ
         type: demonstrative pronoun (<ruby>指<rt>し</rt>示<rt>じ</rt>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “it, that”: points back, most naturally to the singing voice of line 020
@@ -28,6 +29,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for it”: the topic of lines 021–022
@@ -35,12 +37,14 @@ lines:
         pos: noun
         kana: みらい
         romaji: mirai
+        jisho: 未来
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: the future
       - jp: に
         pos: particle
         kana: に
         romaji: ni
+        jisho: に
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), destination
         meaning: >-
           “to”: where the link leads
@@ -48,24 +52,28 @@ lines:
         pos: verb
         kana: つなぐ
         romaji: tsunagu
+        jisho: つなぐ
         type: godan verb つなぐ (<ruby>繋<rt>つな</rt></ruby>ぐ), terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>) or attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>), which look the same
         meaning: to connect, to link, to pass on; the object is unsaid
       - jp: <ruby>過<rt>か</rt>去<rt>こ</rt></ruby>
         pos: noun
         kana: かこ
         romaji: kako
+        jisho: 過去
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: the past
       - jp: に
         pos: particle
         kana: に
         romaji: ni
+        jisho: に
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), destination
         meaning: “to”
       - jp: つなぐ
         pos: verb
         kana: つなぐ
         romaji: tsunagu
+        jisho: つなぐ
         type: godan verb つなぐ, terminal or attributive form
         meaning: >-
           “connects”: repeats the first verb, now toward the past

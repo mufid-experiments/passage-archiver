@@ -22,18 +22,21 @@ lines:
         pos: noun
         kana: ほんとう
         romaji: hontō
+        jisho: 本当
         type: noun (also a na-adjective, <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby>だ)
         meaning: the truth, what is real; here a bare noun, the object of <ruby>知<rt>し</rt></ruby>る
       - jp: を
         pos: particle
         kana: を
         romaji: o
+        jisho: を
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby> as what is found out
       - jp: <ruby>知<rt>し</rt></ruby>っ
         pos: verb
         kana: しっ
         romaji: shit-
+        jisho: 知る
         type: >-
           godan verb <ruby>知<rt>し</rt></ruby>る, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>知<rt>し</rt></ruby>り → <ruby>知<rt>し</rt></ruby>っ) before て
         meaning: to come to know, to find out, to learn (the moment of learning, not the state of knowing)
@@ -41,12 +44,14 @@ lines:
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>知<rt>し</rt></ruby>っ to the subsidiary verb しまう
       - jp: しまっ
         pos: verb
         kana: しまっ
         romaji: shimat-
+        jisho: しまう
         type: >-
           subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) しまう, continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: しまい → しまっ) before た
         meaning: >-
@@ -55,6 +60,7 @@ lines:
         pos: aux
         kana: たら
         romaji: tara
+        jisho: たら
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, conditional form (<ruby>仮<rt>か</rt>定<rt>てい</rt>形<rt>けい</rt></ruby>) たら
         meaning: >-
           “if, when”: closes the もしも of line 005; covers both clauses of the hypothesis

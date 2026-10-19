@@ -17,12 +17,14 @@ lines:
         pos: verb
         kana: みえ
         romaji: mie
+        jisho: 見える
         type: ichidan verb <ruby>見<rt>み</rt></ruby>える, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to be visible, can be seen. <ruby>見<rt>み</rt></ruby>える already means “can be seen”, so it needs no separate potential ending
       - jp: ない
         pos: aux
         kana: ない
         romaji: nai
+        jisho: ない
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ない, negative, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>見<rt>み</rt></ruby>えない = “that can’t be seen, invisible”; the clause modifies もの
@@ -30,6 +32,7 @@ lines:
         pos: noun
         kana: もの
         romaji: mono
+        jisho: もの
         type: noun
         meaning: >-
           thing(s): <ruby>見<rt>み</rt></ruby>えないもの = “what can’t be seen, the invisible”
@@ -37,18 +40,21 @@ lines:
         pos: particle
         kana: を
         romaji: o
+        jisho: を
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>見<rt>み</rt></ruby>えないもの as what is believed in
       - jp: <ruby>信<rt>しん</rt></ruby>じ
         pos: verb
         kana: しんじ
         romaji: shinji
+        jisho: 信じる
         type: ichidan verb <ruby>信<rt>しん</rt></ruby>じる, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to believe, to believe in, to trust; first element of the compound verb <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う
       - jp: <ruby>合<rt>あ</rt></ruby>う
         pos: verb
         kana: あう
         romaji: au
+        jisho: 合う
         type: godan verb <ruby>合<rt>あ</rt></ruby>う as the second element of a compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>), terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “do to each other, do together”: <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う = “believe in each other; believe together”. Plain non-past, here for something people generally do
@@ -69,6 +75,7 @@ lines:
         pos: conj
         kana: だって
         romaji: datte
+        jisho: だって
         type: conjunction (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>詞<rt>し</rt></ruby>), colloquial
         meaning: >-
           “because, after all”: opens a justification for what was just said; it looks ahead to から at the end
@@ -76,12 +83,14 @@ lines:
         pos: noun
         kana: ひと
         romaji: hito
+        jisho: 人
         type: noun
         meaning: person; here people in general, human beings
       - jp: は
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for people”: marks a generic topic, as in a maxim
@@ -89,12 +98,14 @@ lines:
         pos: adj
         kana: よわい
         romaji: yowai
+        jisho: 弱い
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>弱<rt>よわ</rt></ruby>い, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: weak
       - jp: から
         pos: particle
         kana: から
         romaji: kara
+        jisho: から
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), reason
         meaning: >-
           “because”: the reason clause ends the sentence; what it explains is line 001, said first

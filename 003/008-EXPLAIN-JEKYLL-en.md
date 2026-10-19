@@ -22,12 +22,14 @@ lines:
         pos: noun
         kana: まほろ
         romaji: mahoro
+        jisho: まほろば
         type: noun, archaic and poetic (the same as まほろば, まほら); possibly a proper noun
         meaning: a splendid land, the best of places, an ideal place; or the name Mahoro
       - jp: の
         pos: particle
         kana: の
         romaji: "no"
+        jisho: の
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: >-
           “of”: links まほろ to うたごえ; “the voice of” (belonging to it, or heard in it)
@@ -35,6 +37,7 @@ lines:
         pos: noun
         kana: うたごえ
         romaji: utagoe
+        jisho: うたごえ
         type: noun <ruby>歌<rt>うた</rt>声<rt>ごえ</rt></ruby>, compound of <ruby>歌<rt>うた</rt></ruby> (うた) “song” + <ruby>声<rt>こえ</rt></ruby> (こえ) “voice”, with rendaku こ → ご (<ruby>連<rt>れん</rt>濁<rt>だく</rt></ruby>)
         meaning: singing voice; the sound of singing. The head of the phrase, and of lines 007–008 together (<ruby>体<rt>たい</rt>言<rt>げん</rt>止<rt>ど</rt></ruby>め)
 ---

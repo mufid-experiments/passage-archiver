@@ -21,6 +21,7 @@ lines:
         pos: noun
         kana: それ
         romaji: sore
+        jisho: それ
         type: demonstrative pronoun (<ruby>指<rt>し</rt>示<rt>じ</rt>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “that, it”: the same それ as lines 029–030
@@ -28,6 +29,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: “as for it”
       - jp: 「
@@ -40,6 +42,7 @@ lines:
         pos: noun
         kana: きせき
         romaji: kiseki
+        jisho: 奇跡
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: miracle
       - jp: 」
@@ -52,6 +55,7 @@ lines:
         pos: aux
         kana: じゃ
         romaji: ja
+        jisho: じゃ
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate
@@ -59,6 +63,7 @@ lines:
         pos: aux
         kana: ない
         romaji: nai
+        jisho: ない
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -66,6 +71,7 @@ lines:
         pos: verb
         kana: すきとおっ
         romaji: sukitōt-
+        jisho: 透き通る
         type: >-
           godan compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>る, from <ruby>透<rt>す</rt></ruby>く “be see-through” + <ruby>通<rt>とお</rt></ruby>る “pass through”; continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>り → <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>っ) before た
         meaning: to be transparent, to be clear
@@ -73,6 +79,7 @@ lines:
         pos: aux
         kana: た
         romaji: ta
+        jisho: た
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           marks a resulting state: <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby> = “a clear world”
@@ -80,12 +87,14 @@ lines:
         pos: noun
         kana: せかい
         romaji: sekai
+        jisho: 世界
         type: noun
         meaning: world
       - jp: で
         pos: particle
         kana: で
         romaji: de
+        jisho: で
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), place
         meaning: >-
           “in”: where the two are; the verb it would attach to is left unsaid
@@ -93,6 +102,7 @@ lines:
         pos: noun
         kana: ふたり
         romaji: futari
+        jisho: ふたり
         type: noun <ruby>二人<rt>ふたり</rt></ruby>
         meaning: two people; the two of us. The line ends on it, with no particle or predicate
 ---

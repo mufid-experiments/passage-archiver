@@ -22,6 +22,7 @@ lines:
         pos: noun
         kana: おとぎばなし
         romaji: otogibanashi
+        jisho: お伽噺
         type: >-
           noun: prefix お (<ruby>接<rt>せっ</rt>頭<rt>とう</rt>語<rt>ご</rt></ruby>) + <ruby>伽<rt>とぎ</rt></ruby> (とぎ, “keeping company”) + <ruby>噺<rt>はなし</rt></ruby> (はなし, “tale”), with rendaku は → ば (<ruby>連<rt>れん</rt>濁<rt>だく</rt></ruby>)
         meaning: fairy tale, nursery tale, a story told to children; also written お<ruby>伽<rt>とぎ</rt>話<rt>ばなし</rt></ruby>, おとぎ<ruby>話<rt>ばなし</rt></ruby>
@@ -29,6 +30,7 @@ lines:
         pos: aux
         kana: みたいな
         romaji: mitai na
+        jisho: みたいだ
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) みたいだ, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, -like”: casual equivalent of のような; お<ruby>伽<rt>とぎ</rt>噺<rt>ばなし</rt></ruby>みたいな modifies <ruby>調<rt>しら</rt></ruby>べ
@@ -36,6 +38,7 @@ lines:
         pos: noun
         kana: しらべ
         romaji: shirabe
+        jisho: 調べ
         type: noun, from the continuative form of <ruby>調<rt>しら</rt></ruby>べる
         meaning: melody, tune, strains of music (literary); the head of the phrase (<ruby>体<rt>たい</rt>言<rt>げん</rt>止<rt>ど</rt></ruby>め)
 ---
