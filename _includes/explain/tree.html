@@ -1,0 +1,5 @@
+{%- comment -%} The tree of line include.n as nested boxes, then as bracketed text. {%- endcomment -%}
+{%- assign l = page.lines[include.n] -%}
+<div class="tree" lang="ja">{{ l.tree_html }}</div>
+
+<p class="tree-src"><code>{{ l.tree_src | escape }}</code></p>

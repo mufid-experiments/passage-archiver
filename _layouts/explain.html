@@ -1,0 +1,39 @@
+---
+layout: default
+css: [/assets/css/explain.css, /assets/css/nav.css]
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{% include nav.html %}
+<main class="wrap">
+
+<header class="page-head">
+  <h1 class="label">{{ t.passage }} {{ page.passage }} · {{ t.line }} {{ page.line }}</h1>
+  <button type="button" class="furigana-toggle" aria-pressed="true" title="{{ t.furigana_title }}"><span lang="ja">ふりがな</span></button>
+</header>
+
+<section class="context" aria-labelledby="context-h">
+  <h2 id="context-h" class="label">{{ t.context }}</h2>
+  <ol class="ctx">
+{%- for c in page.window %}
+    <li class="is-{% if c.explained %}explained{% else %}context{% endif %}">
+      {% if c.explained %}<a href="#line-{{ c.n }}">{% else %}<span class="line-text">{% endif %}<span class="ln">{{ c.n }}</span><span class="jp" lang="ja">{{ c.jp }}</span>{% if c.explained %}</a>{% else %}</span>{% endif %}
+      <span class="role">{{ t.role[c.role] }}</span>
+    </li>
+{%- endfor %}
+  </ol>
+{%- if page.lede %}
+  <p class="lede">{{ page.lede | jp }}</p>
+{%- endif %}
+</section>
+
+<div class="legend">
+  <p class="hint">{{ t.hint }}</p>
+{%- for pos in page.legend %}
+  <span class="key pos-{{ pos }}">{{ t.pos[pos] }}</span>
+{%- endfor %}
+</div>
+
+{{ content }}
+</main>
+
+<script src="{{ '/assets/js/explain.js' | relative_url }}"></script>

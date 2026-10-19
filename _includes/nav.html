@@ -1,0 +1,9 @@
+{%- comment -%} The bar at the top of an explanation page: back to the index, previous and next page. {%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign nav = page.nav -%}
+<nav class="pa-nav" aria-label="{{ t.nav_label }}">
+<a class="pa-home" href="{{ nav.home | relative_url }}">{{ t.all_lines }}</a>
+<span class="pa-here">{{ page.passage }} · {{ page.line }}<span class="pa-of">{{ nav.at }} {{ t.of }} {{ nav.total }}</span></span>
+{% include nav-step.html step=nav.prev rel="prev" arrow="‹" %}
+{% include nav-step.html step=nav.next rel="next" arrow="›" %}
+</nav>

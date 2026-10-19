@@ -1,0 +1,16 @@
+# Browse the passages: bundle exec jekyll serve  (http://127.0.0.1:8000/)
+title: Passage Archiver
+lang: en
+port: 8000
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: false
+
+# A YAML mistake in an explanation page stops the build instead of
+# silently dropping its front matter.
+strict_front_matter: true
+
+exclude:
+  - splitter.rb
