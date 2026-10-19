@@ -29,7 +29,7 @@ module PassageArchiver
     LINE_TEXT = %w[verdict kana romaji natural literal].freeze
     WORD_TEXT = %w[jp pos kana romaji type meaning].freeze
     # What may sit between the words of a line without being one.
-    GAP = /\A[\s、。「」『』【】！？!?・…‥〜（）()]*\z/
+    GAP = /\A[\s　、。「」『』【】！？!?・…‥〜（）()]*\z/
 
     module_function
 
@@ -64,7 +64,7 @@ module PassageArchiver
         ref = lambda do |node|
           target = node["ref"]
           fail!(at, "{ref: ...} takes a line number in quotes, like {ref: \"#{n}\"}") unless target.is_a?(String) && target.to_i.between?(1, full.size)
-          [target, furigana.call(target), full[target.to_i - 1]]
+          [target, furigana.call(target), full[target.to_i - 1], target.to_i < n.to_i ? "←" : "→"]
         end
         line["tree_html"] = tree_html(line["tree"], words, ref, t, lang, at)
         fail!(at, "leaves out #{words.map { |word| Japanese.plain(word['jp']) }.join(' ')}") unless words.empty?
@@ -131,14 +131,15 @@ module PassageArchiver
     end
 
     # Each leaf is the next word of the line, written without furigana; a
-    # list is a group; {ref: "001"} points at another line.
+    # list is a group; {ref: "001"} points at another line, with ← if it
+    # comes before this one and → if it comes after.
     def tree_html(nodes, words, ref, t, lang, at)
       nodes.map do |node|
         case node
         when Array then %(<span class="grp">#{tree_html(node, words, ref, t, lang, at)}</span>)
         when Hash
-          n, jp, = ref.call(node)
-          %(<span class="tree-ref" lang="#{lang}">← (#{t['line_ref']} #{n}: <span lang="ja">#{jp}</span>)</span>)
+          n, jp, _, arrow = ref.call(node)
+          %(<span class="tree-ref" lang="#{lang}">#{arrow} (#{t['line_ref']} #{n}: <span lang="ja">#{jp}</span>)</span>)
         else
           word = words.shift or fail!(at, "has #{node} after the last word")
           fail!(at, "has #{node} where the next word is #{Japanese.plain(word['jp'])}") unless node.to_s == Japanese.plain(word["jp"])
@@ -152,8 +153,8 @@ module PassageArchiver
         case node
         when Array then "[#{tree_src(node, ref, t)}]"
         when Hash
-          n, _, text = ref.call(node)
-          "← (#{t['line_ref']} #{n}: #{text})"
+          n, _, text, arrow = ref.call(node)
+          "#{arrow} (#{t['line_ref']} #{n}: #{text})"
         else node.to_s
         end
       end.join(" ")
