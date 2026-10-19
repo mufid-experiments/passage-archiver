@@ -33,7 +33,8 @@ the lines that have an explanation page.
   opens its pop-up.
 - **Tree**: the bracket structure as a YAML list of the words without
   furigana, `[[[[見え, ない], もの], を], [信じ, 合う]]`; `{ref: "001"}`
-  points at another line.
+  points at another line, with ← if that line comes before and → if it
+  comes after.
 - **Body**: markdown. Each line's prose sits between
   `{% include explain/line-start.html n="001" %}` and
   `{% include explain/line-end.html n="001" %}`, under `###` headings,
