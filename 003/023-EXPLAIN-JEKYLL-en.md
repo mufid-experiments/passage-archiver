@@ -19,24 +19,28 @@ lines:
         pos: verb
         kana: はばたける
         romaji: habatakeru
+        jisho: 羽ばたく
         type: potential verb (<ruby>可<rt>か</rt>能<rt>のう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) of godan <ruby>羽<rt>は</rt></ruby>ばたく, ichidan conjugation; terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: “can flap (our) wings, can take flight”; figuratively “can spread our wings”
       - jp: <ruby>導<rt>みちび</rt></ruby>か
         pos: verb
         kana: みちびか
         romaji: michibika
+        jisho: 導く
         type: godan verb <ruby>導<rt>みちび</rt></ruby>く, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to guide, to lead
       - jp: れる
         pos: aux
         kana: れる
         romaji: reru
+        jisho: れる
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) れる, passive, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: <ruby>導<rt>みちび</rt></ruby>かれる = “be guided, be led”; the guide is not named
       - jp: まだ
         pos: other
         kana: まだ
         romaji: mada
+        jisho: まだ
         type: adverb (<ruby>副<rt>ふく</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “(not) yet”: with a negative, “still not”
@@ -44,12 +48,14 @@ lines:
         pos: verb
         kana: み
         romaji: mi
+        jisho: 見る
         type: ichidan verb <ruby>見<rt>み</rt></ruby>る, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to see
       - jp: ぬ
         pos: aux
         kana: ぬ
         romaji: nu
+        jisho: ぬ
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ぬ (classical negative ず), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>見<rt>み</rt></ruby>ぬ = <ruby>見<rt>み</rt></ruby>ない; まだ<ruby>見<rt>み</rt></ruby>ぬ = “not yet seen”
@@ -57,12 +63,14 @@ lines:
         pos: noun
         kana: さき
         romaji: saki
+        jisho: 先
         type: noun
         meaning: what lies ahead; the way ahead, the future
       - jp: へ
         pos: particle
         kana: へ
         romaji: e
+        jisho: へ
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direction
         meaning: >-
           “toward”: the direction of both <ruby>羽<rt>は</rt></ruby>ばたける and <ruby>導<rt>みちび</rt></ruby>かれる

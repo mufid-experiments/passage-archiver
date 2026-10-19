@@ -22,12 +22,14 @@ lines:
         pos: noun
         kana: まほろ
         romaji: mahoro
+        jisho: まほろば
         type: noun, archaic and poetic (the same as まほろば); possibly a proper noun
         meaning: a splendid land, the best of places; or the name Mahoro (see line 008)
       - jp: の
         pos: particle
         kana: の
         romaji: "no"
+        jisho: の
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: >-
           “of”: links まほろ to うたごえ
@@ -35,12 +37,14 @@ lines:
         pos: noun
         kana: うたごえ
         romaji: utagoe
+        jisho: うたごえ
         type: noun <ruby>歌<rt>うた</rt>声<rt>ごえ</rt></ruby>, <ruby>歌<rt>うた</rt></ruby> + <ruby>声<rt>こえ</rt></ruby> with rendaku こ → ご (<ruby>連<rt>れん</rt>濁<rt>だく</rt></ruby>)
         meaning: singing voice, the sound of singing; the head modified by line 019
       - jp: だけ
         pos: particle
         kana: だけ
         romaji: dake
+        jisho: だけ
         type: adverbial particle (<ruby>副<rt>ふく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “only, just”: limits the subject to the voice; here it stands in for が
@@ -48,6 +52,7 @@ lines:
         pos: verb
         kana: ひびく
         romaji: hibiku
+        jisho: 響く
         type: godan verb <ruby>響<rt>ひび</rt></ruby>く, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: to resound, to ring out, to echo; the predicate of lines 019–020
 ---

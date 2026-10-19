@@ -25,6 +25,7 @@ with_line: With line
 line_ref: line
 type: Type
 meaning: Meaning / function
+jisho: Dictionary
 previous_word: Previous word
 next_word: Next word
 close: Close

@@ -103,6 +103,10 @@ module PassageArchiver
         fail!("#{at}, word #{i + 1}", "needs #{WORD_TEXT.join(', ')}") unless word.is_a?(Hash)
         WORD_TEXT.each { |key| text!(word[key], "#{at}, word #{i + 1}", key) }
         fail!("#{at}, word #{i + 1}", "pos: #{word['pos']} is not one of #{POS.join(', ')}") unless POS.include?(word["pos"])
+        if word.key?("jisho")
+          text!(word["jisho"], "#{at}, word #{i + 1}", "jisho")
+          fail!("#{at}, word #{i + 1}", "jisho: is the dictionary form as plain text, without furigana") if word["jisho"].include?("<")
+        end
       end
     end
 

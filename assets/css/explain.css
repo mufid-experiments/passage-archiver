@@ -261,6 +261,12 @@ html:not(.popover-ready) .pop-step { display: none; }
 .pop dl { margin: .5rem 0 0; }
 .pop dt { margin-top: .55rem; color: var(--faint); font-size: .7rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
 .pop dd { margin: .05rem 0 0; line-height: 1.85; }
+/* The dictionary form, linked to its search on jisho.org */
+.jisho { color: var(--accent); text-decoration: none; }
+.jisho [lang="ja"] { font-family: var(--serif-jp); font-size: 1.15em; }
+.jisho:hover [lang="ja"] { text-decoration: underline; text-underline-offset: .2em; }
+.jisho .site { margin-left: .5em; color: var(--faint); font-size: .8em; }
+.jisho .site::after { content: " ↗"; }
 
 @media (max-width: 34rem) {
   .wrap { padding-top: 1.5rem; }

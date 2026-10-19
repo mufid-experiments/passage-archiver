@@ -22,12 +22,14 @@ lines:
         pos: noun
         kana: ひとつひとつ
         romaji: hitotsu hitotsu
+        jisho: ひとつひとつ
         type: noun <ruby>一<rt>ひと</rt></ruby>つ<ruby>一<rt>ひと</rt></ruby>つ used as an adverb
         meaning: one by one, each in turn; modifies <ruby>辿<rt>たど</rt></ruby>った
       - jp: <ruby>辿<rt>たど</rt></ruby>っ
         pos: verb
         kana: たどっ
         romaji: tadot-
+        jisho: 辿る
         type: >-
           godan verb <ruby>辿<rt>たど</rt></ruby>る, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>辿<rt>たど</rt></ruby>り → <ruby>辿<rt>たど</rt></ruby>っ) before た
         meaning: to follow (a path, a trail), to trace (one’s way, one’s memories)
@@ -35,6 +37,7 @@ lines:
         pos: aux
         kana: た
         romaji: ta
+        jisho: た
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           completion: “having followed”; the clause modifies <ruby>先<rt>さき</rt></ruby>
@@ -42,12 +45,14 @@ lines:
         pos: noun
         kana: さき
         romaji: saki
+        jisho: 先
         type: noun
         meaning: the point ahead, what lies beyond; the end of the way
       - jp: に
         pos: particle
         kana: に
         romaji: ni
+        jisho: に
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), location
         meaning: >-
           “at”: the place where something is (with <ruby>待<rt>ま</rt></ruby>っている on line 018)
@@ -55,6 +60,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic / contrast
         meaning: >-
           “there, at least”: makes 〜<ruby>先<rt>さき</rt></ruby>に the topic of the sentence and sets that place apart from here

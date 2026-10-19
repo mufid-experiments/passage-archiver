@@ -23,24 +23,28 @@ lines:
         pos: noun
         kana: ひ
         romaji: hi
+        jisho: 日
         type: noun
         meaning: the sun (also “day”); here the sun
       - jp: が
         pos: particle
         kana: が
         romaji: ga
+        jisho: が
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks <ruby>日<rt>ひ</rt></ruby> as the subject inside the relative clause; の could replace it (<ruby>日<rt>ひ</rt></ruby>の<ruby>昇<rt>のぼ</rt></ruby>る<ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>)
       - jp: <ruby>昇<rt>のぼ</rt></ruby>る
         pos: verb
         kana: のぼる
         romaji: noboru
+        jisho: 昇る
         type: godan verb <ruby>昇<rt>のぼ</rt></ruby>る, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: to rise, to go up into the sky; takes <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby>で (line 027) as its setting, and the whole clause modifies <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
       - jp: <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
         pos: noun
         kana: ばしょ
         romaji: basho
+        jisho: 場所
         type: noun
         meaning: place; the head of the phrase (<ruby>体<rt>たい</rt>言<rt>げん</rt>止<rt>ど</rt></ruby>め)
 ---

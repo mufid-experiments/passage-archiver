@@ -20,6 +20,7 @@ lines:
         pos: noun
         kana: それ
         romaji: sore
+        jisho: それ
         type: demonstrative pronoun (<ruby>指<rt>し</rt>示<rt>じ</rt>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “that, it”: points back to something just mentioned, most naturally the singing voice of line 008
@@ -27,6 +28,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for it”: the topic of the denial
@@ -41,6 +43,7 @@ lines:
         pos: noun
         kana: まほう
         romaji: mahō
+        jisho: 魔法
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: magic, sorcery
       - jp: 」
@@ -53,6 +56,7 @@ lines:
         pos: aux
         kana: じゃ
         romaji: ja
+        jisho: じゃ
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: the spoken form of では in a negative noun predicate (<ruby>魔<rt>ま</rt>法<rt>ほう</rt></ruby>ではない → <ruby>魔<rt>ま</rt>法<rt>ほう</rt></ruby>じゃない)
@@ -60,6 +64,7 @@ lines:
         pos: aux
         kana: ない
         romaji: nai
+        jisho: ない
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -67,24 +72,28 @@ lines:
         pos: noun
         kana: おもい
         romaji: omoi
+        jisho: 想い
         type: noun, from the verb <ruby>想<rt>おも</rt></ruby>う (<ruby>思<rt>おも</rt></ruby>う)
         meaning: feelings, what is in one’s heart; love, longing
       - jp: を
         pos: particle
         kana: を
         romaji: o
+        jisho: を
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>想<rt>おも</rt></ruby>い as what is shared
       - jp: <ruby>分<rt>わ</rt></ruby>け
         pos: verb
         kana: わけ
         romaji: wake
+        jisho: 分ける
         type: ichidan verb <ruby>分<rt>わ</rt></ruby>ける, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to divide, to split, to share out; first element of <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>う
       - jp: <ruby>合<rt>あ</rt></ruby>っ
         pos: verb
         kana: あっ
         romaji: at-
+        jisho: 合う
         type: >-
           godan verb <ruby>合<rt>あ</rt></ruby>う as the second element of a compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>), continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>合<rt>あ</rt></ruby>い → <ruby>合<rt>あ</rt></ruby>っ) before て
         meaning: >-
@@ -93,6 +102,7 @@ lines:
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…ing, by ~ing”: the clause stays open; it says how “it” really comes about, and leads on to line 010

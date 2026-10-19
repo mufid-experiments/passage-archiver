@@ -20,6 +20,7 @@ lines:
         pos: noun
         kana: それ
         romaji: sore
+        jisho: それ
         type: demonstrative pronoun (<ruby>指<rt>し</rt>示<rt>じ</rt>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “that, it”: the same それ as line 025
@@ -27,6 +28,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: “as for it”
       - jp: 「
@@ -39,6 +41,7 @@ lines:
         pos: noun
         kana: さいご
         romaji: saigo
+        jisho: 最後
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: the last, the end, the final time
       - jp: 」
@@ -51,6 +54,7 @@ lines:
         pos: aux
         kana: じゃ
         romaji: ja
+        jisho: じゃ
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate
@@ -58,6 +62,7 @@ lines:
         pos: aux
         kana: ない
         romaji: nai
+        jisho: ない
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -65,24 +70,28 @@ lines:
         pos: noun
         kana: じかん
         romaji: jikan
+        jisho: 時間
         type: noun (Sino-Japanese, <ruby>漢<rt>かん</rt>語<rt>ご</rt></ruby>)
         meaning: time; the passing of time
       - jp: を
         pos: particle
         kana: を
         romaji: o
+        jisho: を
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>時<rt>じ</rt>間<rt>かん</rt></ruby> as what is got over
       - jp: <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え
         pos: verb
         kana: のりこえ
         romaji: norikoe
+        jisho: 乗り越える
         type: ichidan compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>える, from <ruby>乗<rt>の</rt></ruby>る “get on, ride” + <ruby>越<rt>こ</rt></ruby>える “cross, go over”; continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to climb over, to get over, to overcome
       - jp: て
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…ing”: the clause stays open and leads on to line 027

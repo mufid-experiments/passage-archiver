@@ -28,9 +28,13 @@ the lines that have an explanation page.
   that are shown but not explained
   (`"003": <ruby>触<rt>ふ</rt></ruby>れられないものばかり`).
 - **Words**: `jp`, `pos` (`noun`, `verb`, `adj`, `aux`, `particle`,
-  `conj`, `other`), `kana`, `romaji`, `type`, `meaning`. In order, they
-  must spell the line in `FULL.md`. Each word is a button on the line that
-  opens its pop-up.
+  `conj`, `other`), `kana`, `romaji`, `jisho`, `type`, `meaning`. In
+  order, they must spell the line in `FULL.md`. Each word is a button on
+  the line that opens its pop-up.
+- **Jisho**: the dictionary form to look up, in plain text (`知る` for the
+  知っ of 知って, `いる` for the る of 知ってる). The pop-up links it to its
+  search on jisho.org. Words with nothing to look up, like 「 or Ah, leave
+  it out.
 - **Tree**: the bracket structure as a YAML list of the words without
   furigana, `[[[[見え, ない], もの], を], [信じ, 合う]]`; `{ref: "001"}`
   points at another line, with ← if that line comes before and → if it

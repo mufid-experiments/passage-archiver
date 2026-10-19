@@ -22,18 +22,21 @@ lines:
         pos: adj
         kana: あおい
         romaji: aoi
+        jisho: 蒼い
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>蒼<rt>あお</rt></ruby>い (usually written <ruby>青<rt>あお</rt></ruby>い), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: blue; a deep or dark blue, also pale, wan; modifies <ruby>月<rt>つき</rt></ruby>
       - jp: <ruby>月<rt>つき</rt></ruby>
         pos: noun
         kana: つき
         romaji: tsuki
+        jisho: 月
         type: noun
         meaning: the moon; no particle follows, so its role is open
       - jp: <ruby>深<rt>ふか</rt></ruby>く
         pos: adj
         kana: ふかく
         romaji: fukaku
+        jisho: 深い
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>深<rt>ふか</rt></ruby>い, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) used adverbially
         meaning: “deep, deeply”; the verb it would modify is not given. After a noun it can also mean “deep in ~” (<ruby>森<rt>もり</rt>深<rt>ふか</rt></ruby>く “deep in the forest”)
       - jp: Ah

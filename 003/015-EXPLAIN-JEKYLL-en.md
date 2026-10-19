@@ -22,6 +22,7 @@ lines:
         pos: other
         kana: ふわり
         romaji: fuwari
+        jisho: ふわり
         type: adverb (<ruby>副<rt>ふく</rt>詞<rt>し</rt></ruby>), mimetic (<ruby>擬<rt>ぎ</rt>態<rt>たい</rt>語<rt>ご</rt></ruby>); と left out
         meaning: >-
           softly, lightly, airily: one soft, floating movement; it goes with <ruby>流<rt>なが</rt></ruby>れてゆく on line 016
@@ -29,24 +30,28 @@ lines:
         pos: adj
         kana: やさしい
         romaji: yasashii
+        jisho: 優しい
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>優<rt>やさ</rt></ruby>しい, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: gentle, kind, tender; modifies <ruby>風<rt>かぜ</rt></ruby>
       - jp: <ruby>風<rt>かぜ</rt></ruby>
         pos: noun
         kana: かぜ
         romaji: kaze
+        jisho: 風
         type: noun
         meaning: wind; here a breeze
       - jp: の
         pos: particle
         kana: の
         romaji: "no"
+        jisho: の
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: links <ruby>風<rt>かぜ</rt></ruby> to ようだ (noun + の + ようだ)
       - jp: ように
         pos: aux
         kana: ように
         romaji: yō ni
+        jisho: ようだ
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ようだ, simile (<ruby>比<rt>ひ</rt>況<rt>きょう</rt></ruby>), continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, as”: an adverbial simile; it modifies <ruby>流<rt>なが</rt></ruby>れてゆく on line 016

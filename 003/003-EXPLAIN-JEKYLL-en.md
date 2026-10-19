@@ -22,12 +22,14 @@ lines:
         pos: verb
         kana: ふれ
         romaji: fure
+        jisho: 触れる
         type: ichidan verb <ruby>触<rt>ふ</rt></ruby>れる, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to touch, to come into contact with; takes に for what is touched (〜に<ruby>触<rt>ふ</rt></ruby>れる)
       - jp: られ
         pos: aux
         kana: られ
         romaji: rare
+        jisho: られる
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) られる, potential, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>) before ない
         meaning: >-
           “can”: <ruby>触<rt>ふ</rt></ruby>れられる = “can touch”. The same ending can also be passive (“be touched”), but the parallel with <ruby>見<rt>み</rt></ruby>えない on line 001 makes it potential
@@ -35,6 +37,7 @@ lines:
         pos: aux
         kana: ない
         romaji: nai
+        jisho: ない
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ない, negative, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>触<rt>ふ</rt></ruby>れられない = “that can’t be touched”; the clause modifies もの
@@ -42,6 +45,7 @@ lines:
         pos: noun
         kana: もの
         romaji: mono
+        jisho: もの
         type: noun
         meaning: >-
           thing(s): <ruby>触<rt>ふ</rt></ruby>れられないもの = “what can’t be touched, the intangible”
@@ -49,6 +53,7 @@ lines:
         pos: particle
         kana: ばかり
         romaji: bakari
+        jisho: ばかり
         type: adverbial particle (<ruby>副<rt>ふく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “nothing but, only”: limits the object to one kind of thing, usually with a sense of imbalance; here it stands in for を, and the verb follows on line 004

@@ -22,6 +22,7 @@ lines:
         pos: conj
         kana: だって
         romaji: datte
+        jisho: だって
         type: conjunction (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>詞<rt>し</rt></ruby>), colloquial
         meaning: >-
           “because, after all”: opens a justification for what was just said; it looks ahead to から at the end
@@ -29,12 +30,14 @@ lines:
         pos: noun
         kana: ひと
         romaji: hito
+        jisho: 人
         type: noun
         meaning: person; here people in general, human beings
       - jp: は
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for people”: marks a generic topic, as in a maxim
@@ -42,6 +45,7 @@ lines:
         pos: adj
         kana: よわい
         romaji: yowai
+        jisho: 弱い
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>弱<rt>よわ</rt></ruby>い, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           weak: lacking strength, especially strength of heart here
@@ -49,6 +53,7 @@ lines:
         pos: particle
         kana: から
         romaji: kara
+        jisho: から
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), reason
         meaning: >-
           “because”: the reason clause ends the sentence; what it explains is line 001, said first

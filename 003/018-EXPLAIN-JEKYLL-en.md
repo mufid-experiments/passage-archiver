@@ -22,18 +22,21 @@ lines:
         pos: noun
         kana: ほんとう
         romaji: hontō
+        jisho: 本当
         type: noun (also a na-adjective, <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby>だ)
         meaning: the truth, what is real; here the subject
       - jp: が
         pos: particle
         kana: が
         romaji: ga
+        jisho: が
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby> as what is waiting; after the topic 〜<ruby>先<rt>さき</rt></ruby>には (line 017), が introduces what is found there
       - jp: <ruby>待<rt>ま</rt></ruby>っ
         pos: verb
         kana: まっ
         romaji: mat-
+        jisho: 待つ
         type: >-
           godan verb <ruby>待<rt>ま</rt></ruby>つ, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>待<rt>ま</rt></ruby>ち → <ruby>待<rt>ま</rt></ruby>っ) before て
         meaning: to wait, to await
@@ -41,12 +44,14 @@ lines:
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>待<rt>ま</rt></ruby>っ to the subsidiary verb いる
       - jp: いる
         pos: verb
         kana: いる
         romaji: iru
+        jisho: いる
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) いる, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) before ん
         meaning: >-
           〜ている, an ongoing state: “is waiting” (already there, waiting)
@@ -54,6 +59,7 @@ lines:
         pos: particle
         kana: ん
         romaji: n
+        jisho: の
         type: nominalizing particle (<ruby>準<rt>じゅん</rt>体<rt>たい</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>) の, contracted to ん
         meaning: >-
           the explanatory の of のだ / んだ: frames the line as a conclusion or explanation
@@ -61,12 +67,14 @@ lines:
         pos: aux
         kana: だろ
         romaji: daro
+        jisho: だ
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) だ, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: copula; with う, forms だろう
       - jp: う
         pos: aux
         kana: う
         romaji: u
+        jisho: う
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) う, conjecture (<ruby>推<rt>すい</rt>量<rt>りょう</rt></ruby>)
         meaning: >-
           “probably, I suppose”: だろう marks the line as the speaker’s guess

@@ -22,18 +22,21 @@ lines:
         pos: verb
         kana: ながれ
         romaji: nagare
+        jisho: 流れる
         type: ichidan verb <ruby>流<rt>なが</rt></ruby>れる, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to flow; of time, to pass
       - jp: て
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>流<rt>なが</rt></ruby>れ to the subsidiary verb ゆく
       - jp: ゆく
         pos: verb
         kana: ゆく
         romaji: yuku
+        jisho: ゆく
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ゆく (= いく, <ruby>行<rt>い</rt></ruby>く), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “go on ~ing, ~ away”: the days flow on and off into the past; the clause modifies <ruby>日<rt>ひ</rt>々<rt>び</rt></ruby>
@@ -41,12 +44,14 @@ lines:
         pos: noun
         kana: ひび
         romaji: hibi
+        jisho: 日々
         type: noun, <ruby>日<rt>ひ</rt></ruby> + the repetition mark 々, with rendaku ひ → び (<ruby>連<rt>れん</rt>濁<rt>だく</rt></ruby>)
         meaning: days, day after day; the head of the phrase
       - jp: よ
         pos: particle
         kana: よ
         romaji: yo
+        jisho: よ
         type: interjectory particle (<ruby>間<rt>かん</rt>投<rt>とう</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), vocative
         meaning: >-
           “O ~!”: calls out to the days

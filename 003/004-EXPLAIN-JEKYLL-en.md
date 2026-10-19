@@ -20,18 +20,21 @@ lines:
         pos: verb
         kana: もとめ
         romaji: motome
+        jisho: 求める
         type: ichidan verb <ruby>求<rt>もと</rt></ruby>める, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to seek, to look for, to want, to ask for; its object is line 003’s <ruby>触<rt>ふ</rt></ruby>れられないものばかり
       - jp: て
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>求<rt>もと</rt></ruby>め to the subsidiary verb しまう
       - jp: しまう
         pos: verb
         kana: しまう
         romaji: shimau
+        jisho: しまう
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) しまう, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) before の
         meaning: >-
           “end up ~ing, can’t help ~ing”: the seeking happens even though one might not mean or wish it to
@@ -39,6 +42,7 @@ lines:
         pos: particle
         kana: の
         romaji: "no"
+        jisho: の
         type: nominalizing particle (<ruby>準<rt>じゅん</rt>体<rt>たい</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “the fact that, (the reason) that”: turns <ruby>求<rt>もと</rt></ruby>めてしまう into a noun phrase
@@ -46,6 +50,7 @@ lines:
         pos: particle
         kana: は
         romaji: wa
+        jisho: は
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           makes that fact the topic: “as for (our) ending up seeking…”
@@ -53,6 +58,7 @@ lines:
         pos: other
         kana: なぜ
         romaji: naze
+        jisho: なぜ
         type: interrogative adverb (<ruby>副<rt>ふく</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “why”: here the predicate of the のは-clause, with だろう or なのか left unsaid

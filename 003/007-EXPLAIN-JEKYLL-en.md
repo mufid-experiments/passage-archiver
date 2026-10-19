@@ -21,12 +21,14 @@ lines:
         pos: noun
         kana: ひかり
         romaji: hikari
+        jisho: 光
         type: noun
         meaning: light
       - jp: と
         pos: particle
         kana: と
         romaji: to
+        jisho: と
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), parallel (<ruby>並<rt>へい</rt>立<rt>りつ</rt></ruby>)
         meaning: >-
           “and”: joins <ruby>光<rt>ひかり</rt></ruby> and <ruby>影<rt>かげ</rt></ruby> in a closed pair, “light and shadow”
@@ -34,12 +36,14 @@ lines:
         pos: noun
         kana: かげ
         romaji: kage
+        jisho: 影
         type: noun
         meaning: shadow; shade, darkness
       - jp: に
         pos: particle
         kana: に
         romaji: ni
+        jisho: に
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), agent of the passive
         meaning: >-
           “by, in”: marks what does the wrapping, 〜に<ruby>包<rt>つつ</rt></ruby>まれる “be wrapped in ~”
@@ -47,24 +51,28 @@ lines:
         pos: verb
         kana: つつま
         romaji: tsutsuma
+        jisho: 包む
         type: godan verb <ruby>包<rt>つつ</rt></ruby>む, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to wrap, to envelop
       - jp: れ
         pos: aux
         kana: れ
         romaji: re
+        jisho: れる
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) れる, passive, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) before て
         meaning: <ruby>包<rt>つつ</rt></ruby>まれる = “be wrapped, be enveloped”
       - jp: て
         pos: particle
         kana: て
         romaji: te
+        jisho: て
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>包<rt>つつ</rt></ruby>まれ to the subsidiary verb いく
       - jp: いく
         pos: verb
         kana: いく
         romaji: iku
+        jisho: いく
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) いく (<ruby>行<rt>い</rt></ruby>く), terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>) or attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>), which look the same
         meaning: >-
           “go on ~ing, more and more”: the wrapping deepens as time goes on
