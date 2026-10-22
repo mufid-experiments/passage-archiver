@@ -22,4 +22,64 @@
 .pa-nav a.pa-step:hover { border-color: var(--accent, #2b4c9b); }
 .pa-nav .pa-off { color: var(--faint, #959ba6); opacity: .6; }
 @media (max-width: 40rem) { .pa-nav .pa-label, .pa-nav .pa-of { display: none; } }
-@media print { .pa-nav { display: none; } }
+
+/* The lines of the passage: beside the page on a wide screen; on a narrow
+   one, a pop-up from the left that ☰ in the bar opens. A long line wraps
+   at its full-width space rather than mid-word. */
+.pa-nav .pa-menu {
+  padding: .3rem .7rem; border: 1px solid var(--border, #e3dfd5); border-radius: 999px;
+  background: var(--card, #fff); color: var(--accent, #2b4c9b); font: inherit; cursor: pointer;
+}
+.pa-nav .pa-menu:hover { border-color: var(--accent, #2b4c9b); }
+.pa-side {
+  flex-direction: column; box-sizing: border-box; margin: 0; padding: 0; border: 0;
+  background: none; color: var(--fg, #1d2129);
+  font: .85rem/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+.pa-side-head { display: flex; align-items: center; justify-content: space-between; gap: .5rem; min-height: 1.9rem; margin: 0; padding: 0 .5rem; }
+.pa-side-title { color: var(--muted, #646a75); font-size: .74rem; font-weight: 650; letter-spacing: .12em; text-transform: uppercase; }
+.pa-close {
+  width: 1.9rem; height: 1.9rem; padding: 0; border: 1px solid var(--border, #e3dfd5); border-radius: 8px;
+  background: transparent; color: inherit; font: inherit; font-size: 1.05rem; line-height: 1; cursor: pointer;
+}
+.pa-close:hover { background: var(--accent-soft, #e9eefa); }
+.pa-side:not(:popover-open) .pa-close { display: none; }
+.pa-lines {
+  flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin;
+  margin: .75rem 0 0; padding: 0; list-style: none;
+}
+.pa-lines a, .pa-lines .pa-off { display: flex; align-items: baseline; gap: .6rem; padding: .3rem .5rem; border-radius: 8px; }
+.pa-lines a { color: inherit; text-decoration: none; }
+.pa-lines a:hover { background: var(--accent-soft, #e9eefa); }
+.pa-lines a:focus-visible { outline: 2px solid var(--accent, #2b4c9b); outline-offset: -2px; }
+.pa-lines [aria-current="page"] { background: var(--accent-soft, #e9eefa); box-shadow: inset 3px 0 var(--accent, #2b4c9b); color: var(--accent, #2b4c9b); }
+.pa-lines .pa-n { min-width: 2.2em; color: var(--faint, #959ba6); font-size: .75rem; font-variant-numeric: tabular-nums; }
+.pa-lines [aria-current="page"] .pa-n { color: inherit; font-weight: 650; }
+.pa-lines .pa-t { font-family: var(--serif-jp, serif); font-size: .95rem; line-height: 1.55; word-break: keep-all; overflow-wrap: anywhere; }
+.pa-lines .pa-off { color: var(--faint, #959ba6); }
+
+/* Room for both: the lines (16rem) and the page (46rem), 1rem apart and
+   centred, with the bar across the two, its ends in line with the text of
+   the lines and the edge of the page's cards. */
+@media (min-width: 66rem) {
+  .pa-nav { padding-inline: calc(50% - 31rem) calc(50% - 30.25rem); }
+  .pa-nav .pa-menu { display: none; }
+  .pa-page { display: grid; grid-template-columns: 16rem minmax(0, 46rem); justify-content: center; column-gap: 1rem; }
+  .pa-side {
+    display: flex; grid-area: 1 / 1; align-self: start;
+    position: sticky; inset: 4rem auto auto; width: auto; height: auto; max-height: calc(100vh - 5.5rem);
+    margin-top: 2.25rem;
+  }
+}
+
+.pa-side:popover-open {
+  display: flex; position: fixed; inset: 0 auto 0 0; width: min(20rem, calc(100vw - 3rem)); height: auto; max-height: none;
+  padding: 1rem .75rem; border-right: 1px solid var(--border, #e3dfd5);
+  background: var(--card, #fff); box-shadow: 0 0 40px rgb(0 0 0 / .18);
+  animation: pa-side-in .18s ease-out;
+}
+.pa-side::backdrop { background: rgb(0 0 0 / .25); }
+@keyframes pa-side-in { from { transform: translateX(-100%); } }
+@media (prefers-reduced-motion: reduce) { .pa-side:popover-open { animation: none; } }
+
+@media print { .pa-nav, .pa-side, .pa-side:popover-open { display: none; } .pa-page { display: block; } }

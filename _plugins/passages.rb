@@ -1,14 +1,16 @@
 # frozen_string_literal: true
 
-# The passages, for the index and for the bar at the top of each
-# explanation page: what serve.rb used to work out on every request.
+# The passages, for the index and for the bar at the top and the lines
+# beside each explanation page: what serve.rb used to work out on every
+# request.
 #
 # A passage is a top-level directory named with digits (001, 002, ...).
 # Its lines are the non-empty lines of its FULL.md, numbered the way
 # splitter.rb numbers them. This fills site.data["passages"] for
 # index.html, prepares every explanation page (see explain.rb), gives each
 # its nav (previous and next page in reading order, among the pages in the
-# same language), and gives each passage directory an index.html that
+# same language, and the lines of its passage, linked to their pages in
+# that language), and gives each passage directory an index.html that
 # sends the browser to that passage on the index.
 
 module PassageArchiver
@@ -19,7 +21,7 @@ module PassageArchiver
       texts = passages(site).to_h { |name| [name, lines(site, name)] }
       pages = site.pages.select { |page| Explain.explain?(page) }
       pages.each { |page| Explain.prepare(page, texts.fetch(page.relative_path[%r{\A(\d+)/}, 1], []), site) }
-      link(pages)
+      link(pages, texts)
       site.data["passages"] = index(site, texts, pages)
       redirect(site, texts.keys)
     end
@@ -37,16 +39,20 @@ module PassageArchiver
       File.file?(full) ? File.readlines(full, chomp: true, encoding: "UTF-8").map(&:rstrip).reject(&:empty?) : []
     end
 
-    def link(pages)
+    def link(pages, texts)
       pages.group_by { |page| page.data["lang"] }.each_value do |group|
         group.sort_by! { |page| [page.data["passage"].to_i, page.data["line"].to_i] }
+        lists = group.group_by { |page| page.data["passage"] }.to_h do |passage, siblings|
+          [passage, rows(texts.fetch(passage), siblings.to_h { |page| [page.data["line"].to_i, page] })]
+        end
         group.each_with_index do |page, at|
           page.data["nav"] = {
             "home" => "/#passage-#{page.data['passage']}",
             "at" => at + 1,
             "total" => group.size,
             "prev" => (step(group[at - 1]) if at.positive?),
-            "next" => step(group[at + 1])
+            "next" => step(group[at + 1]),
+            "lines" => lists[page.data["passage"]]
           }
         end
       end
@@ -62,11 +68,16 @@ module PassageArchiver
       texts.map do |passage, text|
         have = pages.select { |page| page.data["passage"] == passage }.group_by { |page| page.data["line"].to_i }
                     .transform_values { |group| group.find { |page| page.data["lang"] == site.config["lang"] } || group.first }
-        rows = ((1..text.size).to_a | have.keys).sort.map do |n|
-          page = have[n]
-          { "n" => page ? page.data["line"] : format("%03d", n), "text" => text[n - 1], "url" => page&.url }
-        end
-        { "name" => passage, "first" => text.first, "rows" => rows, "explained" => have.size }
+        { "name" => passage, "first" => text.first, "rows" => rows(text, have), "explained" => have.size }
+      end
+    end
+
+    # The lines of a passage, each with the url of its page in have (line
+    # number => page), if it has one.
+    def rows(text, have)
+      ((1..text.size).to_a | have.keys).sort.map do |n|
+        page = have[n]
+        { "n" => page ? page.data["line"] : format("%03d", n), "text" => text[n - 1], "url" => page&.url }
       end
     end
 

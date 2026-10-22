@@ -1,0 +1,19 @@
+{%- comment -%}
+  The lines of the passage, beside an explanation page; on a narrow screen,
+  a pop-up that ☰ in the bar at the top opens. A line with a page in this
+  language links to it.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+<nav class="pa-side" id="pa-side" popover aria-label="{{ t.side_label }} {{ page.passage }}">
+<p class="pa-side-head"><span class="pa-side-title">{{ t.passage }} {{ page.passage }}</span><button type="button" class="pa-close" popovertarget="pa-side" popovertargetaction="hide" aria-label="{{ t.close }}">×</button></p>
+<ol class="pa-lines">
+{%- for r in page.nav.lines %}
+{%- capture cells %}<span class="pa-n">{{ r.n }}</span><span class="pa-t" lang="ja">{{ r.text | escape }}</span>{% endcapture %}
+{%- if r.url %}
+<li><a href="{{ r.url | relative_url }}"{% if r.url == page.url %} aria-current="page"{% endif %}>{{ cells }}</a></li>
+{%- else %}
+<li class="pa-off">{{ cells }}</li>
+{%- endif %}
+{%- endfor %}
+</ol>
+</nav>

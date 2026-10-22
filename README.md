@@ -12,7 +12,9 @@ The passages are a [Jekyll](https://jekyllrb.com/) site:
 `-P 4000` serves on another port, `-H 0.0.0.0` makes it reachable from
 other devices, and `--livereload` reloads the browser after each change.
 The index lists every passage line by line from its `FULL.md` and links
-the lines that have an explanation page.
+the lines that have an explanation page. Each explanation page lists the
+lines of its passage beside it the same way, with its own line marked;
+on a narrow screen, ☰ in the bar at the top opens that list.
 
 ## Explanation pages
 
