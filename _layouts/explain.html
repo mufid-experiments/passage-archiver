@@ -4,6 +4,7 @@ css: [/assets/css/explain.css, /assets/css/nav.css]
 ---
 {%- assign t = site.data.i18n[page.lang] -%}
 {% include nav.html %}
+<div class="pa-page">
 <main class="wrap">
 
 <header class="page-head">
@@ -35,5 +36,7 @@ css: [/assets/css/explain.css, /assets/css/nav.css]
 
 {{ content }}
 </main>
+{% include side.html %}
+</div>
 
 <script src="{{ '/assets/js/explain.js' | relative_url }}"></script>

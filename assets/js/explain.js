@@ -16,6 +16,20 @@
     try { localStorage.setItem(KEY, on ? "on" : "off"); } catch {}
   });
 
+  // The lines of the passage, scrolled to put this page's line in the
+  // middle: beside the page from the start, in the pop-up of a narrow
+  // screen each time it opens.
+  const side = document.getElementById("pa-side");
+  const here = side?.querySelector("[aria-current]");
+  if (here) {
+    const list = here.closest("ol");
+    const centre = () => {
+      list.scrollTop += here.getBoundingClientRect().top - list.getBoundingClientRect().top - (list.clientHeight - here.offsetHeight) / 2;
+    };
+    centre();
+    side.addEventListener("toggle", (event) => { if (event.newState === "open") centre(); });
+  }
+
   // Word pop-ups. Without the Popover API they stay in the page as plain cards.
   if (!HTMLElement.prototype.hasOwnProperty("popover")) return;
   root.classList.add("popover-ready");
