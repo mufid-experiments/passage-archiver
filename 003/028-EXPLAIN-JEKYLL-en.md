@@ -31,6 +31,7 @@ lines:
         kana: が
         romaji: ga
         jisho: が
+        taekim: ["3.3.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks <ruby>日<rt>ひ</rt></ruby> as the subject inside the relative clause; の could replace it (<ruby>日<rt>ひ</rt></ruby>の<ruby>昇<rt>のぼ</rt></ruby>る<ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>)
       - jp: <ruby>昇<rt>のぼ</rt></ruby>る
@@ -38,6 +39,7 @@ lines:
         kana: のぼる
         romaji: noboru
         jisho: 昇る
+        taekim: ["3.10.3"]
         type: godan verb <ruby>昇<rt>のぼ</rt></ruby>る, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: to rise, to go up into the sky; takes <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby>で (line 027) as its setting, and the whole clause modifies <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
       - jp: <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
@@ -62,6 +64,12 @@ The line is a grammatical noun phrase and repeats line 012 word for word, but he
 {% include explain/tree.html n="028" %}
 
 <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby>で gives the setting, and <ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>る the event. Together they form the relative clause, and <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby> is its head. The noun phrase is what “it” is, after the denial on line 027. The copula is not said.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="028" %}
+
+3.10.3 puts a whole verb clause before a noun, as <ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>る comes before <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>. Inside such a clause, が can become の (<ruby>日<rt>ひ</rt></ruby>の<ruby>昇<rt>のぼ</rt></ruby>る<ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>), which the book does not cover.
 
 {% include explain/line-end.html n="028" %}
 

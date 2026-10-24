@@ -29,6 +29,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for it”: the topic of the denial
@@ -57,6 +58,7 @@ lines:
         kana: じゃ
         romaji: ja
         jisho: じゃ
+        taekim: ["3.2.2"]
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate (<ruby>魔<rt>ま</rt>法<rt>ほう</rt></ruby>ではない → <ruby>魔<rt>ま</rt>法<rt>ほう</rt></ruby>じゃない)
@@ -65,6 +67,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.2.2"]
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -73,6 +76,7 @@ lines:
         kana: おもい
         romaji: omoi
         jisho: 想い
+        taekim: ["4.1.2"]
         type: noun, from the verb <ruby>想<rt>おも</rt></ruby>う (<ruby>思<rt>おも</rt></ruby>う)
         meaning: feelings, what is in one’s heart; love, longing
       - jp: を
@@ -80,6 +84,7 @@ lines:
         kana: を
         romaji: o
         jisho: を
+        taekim: ["3.8.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>想<rt>おも</rt></ruby>い as what is shared
       - jp: <ruby>分<rt>わ</rt></ruby>け
@@ -87,6 +92,7 @@ lines:
         kana: わけ
         romaji: wake
         jisho: 分ける
+        taekim: ["4.1.2"]
         type: ichidan verb <ruby>分<rt>わ</rt></ruby>ける, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to divide, to share out; first element of <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>う
       - jp: <ruby>合<rt>あ</rt></ruby>っ
@@ -94,6 +100,7 @@ lines:
         kana: あっ
         romaji: at-
         jisho: 合う
+        taekim: ["4.1.2", "4.4.2"]
         type: >-
           godan verb <ruby>合<rt>あ</rt></ruby>う as the second element of a compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>), continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>合<rt>あ</rt></ruby>い → <ruby>合<rt>あ</rt></ruby>っ) before て
         meaning: >-
@@ -103,6 +110,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…ing, by ~ing”: the clause stays open and leads on to line 030
@@ -121,6 +129,12 @@ The line is grammatical and repeats lines 009 and 025 word for word. It opens th
 {% include explain/tree.html n="029" %}
 
 The first half denies a label, and the second half says what is true instead. The te-form keeps the chorus open for the next two denials.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="029" %}
+
+4.1.2 covers both uses of a stem in this line. <ruby>想<rt>おも</rt></ruby>い is the stem of <ruby>想<rt>おも</rt></ruby>う used as a noun, like the book’s <ruby>休<rt>やす</rt></ruby>み “rest” from <ruby>休<rt>やす</rt></ruby>む. <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>う is a second verb attached to the stem <ruby>分<rt>わ</rt></ruby>け, like its <ruby>走<rt>はし</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す. 4.4.2 is the te-form that joins one action to the next; the line stops on it, with nothing after.
 
 {% include explain/line-end.html n="029" %}
 

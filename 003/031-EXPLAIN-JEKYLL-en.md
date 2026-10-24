@@ -30,6 +30,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: “as for it”
       - jp: 「
@@ -56,6 +57,7 @@ lines:
         kana: じゃ
         romaji: ja
         jisho: じゃ
+        taekim: ["3.2.2"]
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate
@@ -64,6 +66,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.2.2"]
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -72,6 +75,7 @@ lines:
         kana: すきとおっ
         romaji: sukitōt-
         jisho: 透き通る
+        taekim: ["3.7.2", "3.10.3", "4.1.2"]
         type: >-
           godan compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>る, from <ruby>透<rt>す</rt></ruby>く “be see-through” + <ruby>通<rt>とお</rt></ruby>る “pass through”; continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>り → <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>っ) before た
         meaning: to be transparent, to be clear
@@ -80,6 +84,7 @@ lines:
         kana: た
         romaji: ta
         jisho: た
+        taekim: ["3.7.2", "3.10.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           marks a resulting state: <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby> = “a clear world”
@@ -95,6 +100,7 @@ lines:
         kana: で
         romaji: de
         jisho: で
+        taekim: ["3.8.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), place
         meaning: >-
           “in”: where the two are; the verb it would attach to is left unsaid
@@ -103,6 +109,7 @@ lines:
         kana: ふたり
         romaji: futari
         jisho: ふたり
+        taekim: ["4.16.2"]
         type: noun <ruby>二人<rt>ふたり</rt></ruby>
         meaning: two people; the two of us. The line ends on it, with no particle or predicate
 ---
@@ -120,6 +127,12 @@ The line is grammatical and repeats line 011 word for word, restoring the ふた
 {% include explain/tree.html n="031" %}
 
 The first half denies the label. In the second half, <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby>で sets the scene and ふたり names who is in it. The predicate that で is waiting for is not given, and line 032 adds a second noun phrase, not a verb.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="031" %}
+
+Tae Kim teaches た as the past (3.7.2), and 3.10.3 puts it before nouns for past events: <ruby>先<rt>せん</rt>週<rt>しゅう</rt></ruby>に<ruby>映<rt>えい</rt>画<rt>が</rt></ruby>を<ruby>見<rt>み</rt></ruby>た<ruby>人<rt>ひと</rt></ruby> “the person who saw a movie last week”. た for a state, as in <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>った<ruby>世<rt>せ</rt>界<rt>かい</rt></ruby>, has no section. The nearest is 4.5.2, where <ruby>結<rt>けっ</rt>婚<rt>こん</rt></ruby>している means “be married”, the state an action has left. <ruby>透<rt>す</rt></ruby>き<ruby>通<rt>とお</rt></ruby>る is <ruby>透<rt>す</rt></ruby>く + <ruby>通<rt>とお</rt></ruby>る, a compound of the kind at the end of 4.1.2. 4.16.2 lists ふたり under the counter for people, <ruby>人<rt>にん</rt></ruby>.
 
 {% include explain/line-end.html n="031" %}
 

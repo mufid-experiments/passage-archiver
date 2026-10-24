@@ -31,6 +31,7 @@ lines:
         kana: やさしい
         romaji: yasashii
         jisho: 優しい
+        taekim: ["3.4.3"]
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>優<rt>やさ</rt></ruby>しい, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: gentle, kind, tender; modifies <ruby>風<rt>かぜ</rt></ruby>
       - jp: <ruby>風<rt>かぜ</rt></ruby>
@@ -45,6 +46,7 @@ lines:
         kana: の
         romaji: "no"
         jisho: の
+        taekim: ["5.7.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: links <ruby>風<rt>かぜ</rt></ruby> to ようだ (noun + の + ようだ)
       - jp: ように
@@ -52,6 +54,7 @@ lines:
         kana: ように
         romaji: yō ni
         jisho: ようだ
+        taekim: ["5.7.1"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ようだ, simile (<ruby>比<rt>ひ</rt>況<rt>きょう</rt></ruby>), continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, as”: an adverbial simile; it modifies <ruby>流<rt>なが</rt></ruby>れてゆく on line 016
@@ -70,6 +73,12 @@ The line is grammatical but is not a sentence. ふわり is a mimetic adverb, �
 {% include explain/tree.html n="015" %}
 
 Two adverbials stack up before one verb: ふわり says how the movement looks (soft and airy), and <ruby>優<rt>やさ</rt></ruby>しい<ruby>風<rt>かぜ</rt></ruby>のように says what it is like (a gentle breeze). The verb is <ruby>流<rt>なが</rt></ruby>れてゆく on line 016, which in turn describes <ruby>日<rt>ひ</rt>々<rt>び</rt></ruby> “days”.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="015" %}
+
+ふわり is a mimetic word (<ruby>擬<rt>ぎ</rt>態<rt>たい</rt>語<rt>ご</rt></ruby>), and the book has no section on these; dictionaries list them, often with と (ふわりと). The rest is as on lines 013 and 014: <ruby>優<rt>やさ</rt></ruby>しい before a noun (3.4.3) and のように (5.7.1).
 
 {% include explain/line-end.html n="015" %}
 

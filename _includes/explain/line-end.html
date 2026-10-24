@@ -1,7 +1,8 @@
 {%- comment -%}
   Closes the card of line include.n with one pop-up per word. ‹ and › step
   through every word on the page, so they stop only at its first and last.
-  A word with a jisho: (its dictionary form) links to it on jisho.org.
+  A word with a taekim: lists those sections of Tae Kim's book, and one
+  with a jisho: (its dictionary form) links to it on jisho.org.
 {%- endcomment -%}
 {%- assign t = site.data.i18n[page.lang] -%}
 {%- assign n = include.n -%}
@@ -25,6 +26,12 @@
     <dd>{{ w.type | jp }}</dd>
     <dt>{{ t.meaning }}</dt>
     <dd>{{ w.meaning | jp }}</dd>
+{%- if w.taekim %}
+    <dt>{{ t.taekim }}</dt>
+{%- for sec in w.taekim %}
+    <dd>{% include explain/taekim-ref.html n=sec %}</dd>
+{%- endfor %}
+{%- endif %}
 {%- if w.jisho %}
     <dt>{{ t.jisho }}</dt>
     <dd><a class="jisho" href="https://jisho.org/search/{{ w.jisho | url_encode }}" target="_blank" rel="noopener"><span lang="ja">{{ w.jisho | escape }}</span><span class="site">jisho.org</span></a></dd>

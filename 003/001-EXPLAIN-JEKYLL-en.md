@@ -18,6 +18,7 @@ lines:
         kana: みえ
         romaji: mie
         jisho: 見える
+        taekim: ["3.6.1", "3.10.3", "4.6.4"]
         type: ichidan verb <ruby>見<rt>み</rt></ruby>える, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to be visible, can be seen. <ruby>見<rt>み</rt></ruby>える already means “can be seen”, so it needs no separate potential ending
       - jp: ない
@@ -25,6 +26,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.6.1", "3.10.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ない, negative, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>見<rt>み</rt></ruby>えない = “that can’t be seen, invisible”; the clause modifies もの
@@ -41,6 +43,7 @@ lines:
         kana: を
         romaji: o
         jisho: を
+        taekim: ["3.8.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>見<rt>み</rt></ruby>えないもの as what is believed in
       - jp: <ruby>信<rt>しん</rt></ruby>じ
@@ -48,6 +51,7 @@ lines:
         kana: しんじ
         romaji: shinji
         jisho: 信じる
+        taekim: ["4.1.2"]
         type: ichidan verb <ruby>信<rt>しん</rt></ruby>じる, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to believe, to believe in, to trust; first element of the compound verb <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う
       - jp: <ruby>合<rt>あ</rt></ruby>う
@@ -55,6 +59,7 @@ lines:
         kana: あう
         romaji: au
         jisho: 合う
+        taekim: ["4.1.2"]
         type: godan verb <ruby>合<rt>あ</rt></ruby>う as the second element of a compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>), terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “do to each other, do together”: <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う = “believe in each other; believe together”. Plain non-past, here for something people generally do
@@ -76,6 +81,7 @@ lines:
         kana: だって
         romaji: datte
         jisho: だって
+        taekim: ["4.12.5"]
         type: conjunction (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>詞<rt>し</rt></ruby>), colloquial
         meaning: >-
           “because, after all”: opens a justification for what was just said; it looks ahead to から at the end
@@ -91,6 +97,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for people”: marks a generic topic, as in a maxim
@@ -99,6 +106,7 @@ lines:
         kana: よわい
         romaji: yowai
         jisho: 弱い
+        taekim: ["3.4.3"]
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>弱<rt>よわ</rt></ruby>い, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: weak
       - jp: から
@@ -106,6 +114,7 @@ lines:
         kana: から
         romaji: kara
         jisho: から
+        taekim: ["4.4.3"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), reason
         meaning: >-
           “because”: the reason clause ends the sentence; what it explains is line 001, said first
@@ -125,6 +134,12 @@ The line is grammatical and complete. <ruby>見<rt>み</rt></ruby>えないも�
 
 <ruby>見<rt>み</rt></ruby>えない modifies もの, and the noun phrase is the object of <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う. The subject, people in general or “we”, is left unsaid. The sentence ends here, and line 002 adds the reason.
 
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="001" %}
+
+Tae Kim has no section on compound verbs as such. The end of 4.1.2 covers them: a second verb attached to the stem of another, as in <ruby>走<rt>はし</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す “break into a run” and <ruby>付<rt>つ</rt></ruby>け<ruby>加<rt>くわ</rt></ruby>える “add on”, each to be learned as a verb in its own right. 〜<ruby>合<rt>あ</rt></ruby>う is not among his examples, but <ruby>信<rt>しん</rt></ruby>じ<ruby>合<rt>あ</rt></ruby>う is built the same way, on the stem <ruby>信<rt>しん</rt></ruby>じ. 4.6.4 is why the line has <ruby>見<rt>み</rt></ruby>えない, not <ruby>見<rt>み</rt></ruby>られない. The book calls ichidan verbs ru-verbs and godan verbs u-verbs (3.5.2).
+
 {% include explain/line-end.html n="001" %}
 
 {% include explain/line-start.html n="002" %}
@@ -140,6 +155,12 @@ The line is grammatical and typical of speech. だって opens a justification (
 {% include explain/tree.html n="002" %}
 
 <ruby>人<rt>ひと</rt></ruby>は<ruby>弱<rt>よわ</rt></ruby>い is a complete clause, “people are weak”. から turns it into a reason, and だって at the front signals in advance that a reason is coming. The clause it explains is not after it but before it, on line 001.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="002" %}
+
+Tae Kim’s だって is in 4.12.5: a word that “leaves out just about everything”, used to object or to make an excuse, as in だって、<ruby>時<rt>じ</rt>間<rt>かん</rt></ruby>がないからできないよ “but I have no time, so I can’t”. 4.4.3 notes that a reason can stand without its result when the context gives it, as in the answer <ruby>時<rt>じ</rt>間<rt>かん</rt></ruby>がなかったから “because I didn’t have time”. Here the result was said first, on line 001.
 
 {% include explain/line-end.html n="002" %}
 

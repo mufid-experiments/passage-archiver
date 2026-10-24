@@ -31,6 +31,7 @@ lines:
         kana: みたいな
         romaji: mitai na
         jisho: みたいだ
+        taekim: ["5.7.2"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) みたいだ, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, -like”: casual equivalent of のような; お<ruby>伽<rt>とぎ</rt>噺<rt>ばなし</rt></ruby>みたいな modifies <ruby>調<rt>しら</rt></ruby>べ
@@ -39,6 +40,7 @@ lines:
         kana: しらべ
         romaji: shirabe
         jisho: 調べ
+        taekim: ["4.1.2"]
         type: noun, from the continuative form of <ruby>調<rt>しら</rt></ruby>べる
         meaning: melody, tune, strains of music (literary); the head of the phrase (<ruby>体<rt>たい</rt>言<rt>げん</rt>止<rt>ど</rt></ruby>め)
 ---
@@ -56,6 +58,12 @@ The line is a grammatical noun phrase. お<ruby>伽<rt>とぎ</rt>噺<rt>ばな�
 {% include explain/tree.html n="022" %}
 
 お<ruby>伽<rt>とぎ</rt>噺<rt>ばなし</rt></ruby>みたいな modifies <ruby>調<rt>しら</rt></ruby>べ. In reading (b), <ruby>未<rt>み</rt>来<rt>らい</rt></ruby>につなぐ and <ruby>過<rt>か</rt>去<rt>こ</rt></ruby>につなぐ from line 021 modify <ruby>調<rt>しら</rt></ruby>べ too, and the whole noun phrase is the predicate of それは, with だ left out. In reading (a), the phrase stands alone as a description of それ.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="022" %}
+
+5.7.2 says みたい conjugates like a na-adjective, which is why it takes な before a noun. よう, in 5.7.1, gives the less casual のような; the note on みたいな below compares the two. <ruby>調<rt>しら</rt></ruby>べ is the stem of <ruby>調<rt>しら</rt></ruby>べる used as a noun (4.1.2), but its meaning here, “melody”, is literary and not in the book.
 
 {% include explain/line-end.html n="022" %}
 

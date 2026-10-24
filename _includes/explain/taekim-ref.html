@@ -1,0 +1,12 @@
+{%- comment -%}
+  Section include.n of Tae Kim's book (_data/taekim.yml): its number and
+  title, linked to the same section in the online guide where it has one,
+  and its page in the book.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign s = site.data.taekim[include.n] -%}
+{%- if s.url -%}
+<a class="taekim" href="{{ s.url | escape }}" target="_blank" rel="noopener" title="{{ t.taekim_link }}"><span class="num">{{ include.n }}</span> {{ s.title | escape | jp }}</a> <span class="page">{{ t.page }} {{ s.page }}</span>
+{%- else -%}
+<span class="taekim"><span class="num">{{ include.n }}</span> {{ s.title | escape | jp }}</span> <span class="page">{{ t.page }} {{ s.page }}</span>
+{%- endif -%}

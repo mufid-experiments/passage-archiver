@@ -20,6 +20,7 @@ lines:
         kana: はばたける
         romaji: habatakeru
         jisho: 羽ばたく
+        taekim: ["4.6.2"]
         type: potential verb (<ruby>可<rt>か</rt>能<rt>のう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) of godan <ruby>羽<rt>は</rt></ruby>ばたく, ichidan conjugation; terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: “can flap (our) wings, can take flight”; figuratively “can spread our wings”
       - jp: <ruby>導<rt>みちび</rt></ruby>か
@@ -27,6 +28,7 @@ lines:
         kana: みちびか
         romaji: michibika
         jisho: 導く
+        taekim: ["5.1.2"]
         type: godan verb <ruby>導<rt>みちび</rt></ruby>く, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to guide, to lead
       - jp: れる
@@ -34,6 +36,7 @@ lines:
         kana: れる
         romaji: reru
         jisho: れる
+        taekim: ["5.1.2"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) れる, passive, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: <ruby>導<rt>みちび</rt></ruby>かれる = “be guided, be led”; the guide is not named
       - jp: まだ
@@ -49,6 +52,7 @@ lines:
         kana: み
         romaji: mi
         jisho: 見る
+        taekim: ["3.10.3", "5.10.3"]
         type: ichidan verb <ruby>見<rt>み</rt></ruby>る, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to see
       - jp: ぬ
@@ -56,6 +60,7 @@ lines:
         kana: ぬ
         romaji: nu
         jisho: ぬ
+        taekim: ["3.10.3", "5.10.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ぬ (classical negative ず), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>見<rt>み</rt></ruby>ぬ = <ruby>見<rt>み</rt></ruby>ない; まだ<ruby>見<rt>み</rt></ruby>ぬ = “not yet seen”
@@ -71,6 +76,7 @@ lines:
         kana: へ
         romaji: e
         jisho: へ
+        taekim: ["3.8.3"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direction
         meaning: >-
           “toward”: the direction of both <ruby>羽<rt>は</rt></ruby>ばたける and <ruby>導<rt>みちび</rt></ruby>かれる
@@ -89,6 +95,12 @@ The line is grammatical and falls into three parts at the full-width spaces. <ru
 {% include explain/tree.html n="023" %}
 
 The two verbs share an unstated subject (“we”), and both take the direction phrase at the end of the line. Prose order would be まだ<ruby>見<rt>み</rt></ruby>ぬ<ruby>先<rt>さき</rt></ruby>へ<ruby>羽<rt>は</rt></ruby>ばたける、<ruby>導<rt>みちび</rt></ruby>かれる. Putting the direction last makes “where to” the end point of the line, and of the movement.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="023" %}
+
+4.6.2 makes the potential of a godan verb (a u-verb) by changing its last sound to the e row and adding る: <ruby>羽<rt>は</rt></ruby>ばたく → <ruby>羽<rt>は</rt></ruby>ばたける. 5.10.3 is the old negative ぬ in place of ない, with the example <ruby>知<rt>し</rt></ruby>らぬ. 3.8.3 sets へ against に: へ heads toward a place, に arrives at it.
 
 {% include explain/line-end.html n="023" %}
 

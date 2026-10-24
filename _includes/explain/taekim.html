@@ -1,0 +1,12 @@
+{%- comment -%}
+  The sections of Tae Kim's book that the words of line include.n point at
+  (line.taekim, from their taekim:), each beside those words.
+{%- endcomment -%}
+{%- assign l = page.lines[include.n] -%}
+{%- if l.taekim.size > 0 %}
+<ul class="taekim-list">
+{%- for s in l.taekim %}
+  <li><span class="taekim-for" lang="ja">{{ s.words_html }}</span><span class="taekim-sec">{% include explain/taekim-ref.html n=s.n %}</span></li>
+{%- endfor %}
+</ul>
+{%- endif %}

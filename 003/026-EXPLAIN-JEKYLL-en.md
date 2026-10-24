@@ -29,6 +29,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: “as for it”
       - jp: 「
@@ -55,6 +56,7 @@ lines:
         kana: じゃ
         romaji: ja
         jisho: じゃ
+        taekim: ["3.2.2"]
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate
@@ -63,6 +65,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.2.2"]
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -78,6 +81,7 @@ lines:
         kana: を
         romaji: o
         jisho: を
+        taekim: ["3.8.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>時<rt>じ</rt>間<rt>かん</rt></ruby> as what is got over
       - jp: <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>え
@@ -85,6 +89,7 @@ lines:
         kana: のりこえ
         romaji: norikoe
         jisho: 乗り越える
+        taekim: ["4.1.2", "4.4.2"]
         type: ichidan compound verb (<ruby>複<rt>ふく</rt>合<rt>ごう</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>える, from <ruby>乗<rt>の</rt></ruby>る “get on, ride” + <ruby>越<rt>こ</rt></ruby>える “cross, go over”; continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to climb over, to get over, to overcome
       - jp: て
@@ -92,6 +97,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…ing”: the clause stays open and leads on to line 027
@@ -110,6 +116,12 @@ The line is grammatical and repeats line 010 word for word, as the second line o
 {% include explain/tree.html n="026" %}
 
 The first half denies a label, and the second half says what is true instead. The te-form <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>えて stands parallel to line 025’s <ruby>分<rt>わ</rt></ruby>け<ruby>合<rt>あ</rt></ruby>って, and the chorus runs on.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="026" %}
+
+<ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>える is <ruby>乗<rt>の</rt></ruby>る “get on” + <ruby>越<rt>こ</rt></ruby>える “cross”, a second verb on the stem of the first, as at the end of 4.1.2. Like the compounds there, it is a verb in its own right and conjugates as one. <ruby>乗<rt>の</rt></ruby>り<ruby>越<rt>こ</rt></ruby>えて is the te-form of an ichidan verb (a ru-verb, in the book’s terms), 4.4.2.
 
 {% include explain/line-end.html n="026" %}
 

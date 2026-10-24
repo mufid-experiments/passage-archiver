@@ -23,6 +23,7 @@ lines:
         kana: あおい
         romaji: aoi
         jisho: 蒼い
+        taekim: ["3.4.3"]
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>蒼<rt>あお</rt></ruby>い (usually written <ruby>青<rt>あお</rt></ruby>い), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: blue; a deep or dark blue, also pale, wan; modifies <ruby>月<rt>つき</rt></ruby>
       - jp: <ruby>月<rt>つき</rt></ruby>
@@ -37,6 +38,7 @@ lines:
         kana: ふかく
         romaji: fukaku
         jisho: 深い
+        taekim: ["3.12.1"]
         type: i-adjective (<ruby>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) <ruby>深<rt>ふか</rt></ruby>い, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) used adverbially
         meaning: “deep, deeply”; the verb it would modify is not given. After a noun it can also mean “deep in ~” (<ruby>森<rt>もり</rt>深<rt>ふか</rt></ruby>く “deep in the forest”)
       - jp: Ah
@@ -60,6 +62,12 @@ The line is not a sentence, and its grammar is left unfinished on purpose. <ruby
 {% include explain/tree.html n="014" %}
 
 <ruby>蒼<rt>あお</rt></ruby>い modifies <ruby>月<rt>つき</rt></ruby>. <ruby>深<rt>ふか</rt></ruby>く hangs open, waiting for a verb, and line 013’s ように is waiting too. Neither gets one, so the two lines form a pair of images: a star at dawn, and the pale moon. “Ah” stands outside the sentence.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="014" %}
+
+3.4.3 puts an i-adjective straight before a noun, as in <ruby>蒼<rt>あお</rt></ruby>い<ruby>月<rt>つき</rt></ruby>. 3.12.1 makes an adverb of one by changing い to く (<ruby>早<rt>はや</rt></ruby>い → <ruby>早<rt>はや</rt></ruby>く), which gives <ruby>深<rt>ふか</rt></ruby>く.
 
 {% include explain/line-end.html n="014" %}
 

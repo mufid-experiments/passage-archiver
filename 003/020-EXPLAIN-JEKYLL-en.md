@@ -30,6 +30,7 @@ lines:
         kana: の
         romaji: "no"
         jisho: の
+        taekim: ["3.11.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: >-
           “of”: links まほろ to うたごえ
@@ -45,6 +46,7 @@ lines:
         kana: だけ
         romaji: dake
         jisho: だけ
+        taekim: ["5.6.1"]
         type: adverbial particle (<ruby>副<rt>ふく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “only, just”: limits the subject to the voice; here it stands in for が
@@ -70,6 +72,12 @@ The line is grammatical and ends a sentence. まほろのうたごえ “the sin
 {% include explain/tree.html n="020" %}
 
 The relative clause from line 019 and まほろの both modify うたごえ. だけ limits the subject to that voice, and <ruby>響<rt>ひび</rt></ruby>く is its verb. The sentence ends here.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="020" %}
+
+5.6.1’s だけ attaches straight to the word it limits, here うたごえ: only the singing is heard. The の is the one of 3.11.4, as on line 008.
 
 {% include explain/line-end.html n="020" %}
 
