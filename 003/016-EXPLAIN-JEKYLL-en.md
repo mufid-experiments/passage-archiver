@@ -23,6 +23,7 @@ lines:
         kana: ながれ
         romaji: nagare
         jisho: 流れる
+        taekim: ["3.10.3", "4.4.2"]
         type: ichidan verb <ruby>流<rt>なが</rt></ruby>れる, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to flow; of time, to pass
       - jp: て
@@ -30,6 +31,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["3.10.3", "4.4.2", "4.5.5"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>流<rt>なが</rt></ruby>れ to the subsidiary verb ゆく
       - jp: ゆく
@@ -37,6 +39,7 @@ lines:
         kana: ゆく
         romaji: yuku
         jisho: ゆく
+        taekim: ["3.10.3", "4.5.5"]
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ゆく (= いく, <ruby>行<rt>い</rt></ruby>く), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “go on ~ing, ~ away”: the days flow on and off into the past; the clause modifies <ruby>日<rt>ひ</rt>々<rt>び</rt></ruby>
@@ -76,6 +79,12 @@ The line is grammatical. <ruby>流<rt>なが</rt></ruby>れてゆく “that flo
 {% include explain/tree.html n="016" %}
 
 ふわり and <ruby>優<rt>やさ</rt></ruby>しい<ruby>風<rt>かぜ</rt></ruby>のように (line 015) both modify <ruby>流<rt>なが</rt></ruby>れてゆく. <ruby>流<rt>なが</rt></ruby>れてゆく modifies <ruby>日<rt>ひ</rt>々<rt>び</rt></ruby>, and よ turns the whole noun phrase into an address. The result is an exclamation to the days, with no predicate needed.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="016" %}
+
+ゆく is an older, more literary いく. 4.5.5 uses いく, and the grammar is the same: an action that carries on in time. The よ that calls out to the days, “O days”, is not in the book. Its よ, in 3.12.4 (「よ」 sentence ending), is the one that ends a sentence to tell the listener something new.
 
 {% include explain/line-end.html n="016" %}
 

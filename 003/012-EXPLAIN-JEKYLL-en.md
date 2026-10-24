@@ -31,6 +31,7 @@ lines:
         kana: が
         romaji: ga
         jisho: が
+        taekim: ["3.3.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks <ruby>日<rt>ひ</rt></ruby> as the subject inside the relative clause; の could replace it (<ruby>日<rt>ひ</rt></ruby>の<ruby>昇<rt>のぼ</rt></ruby>る<ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>)
       - jp: <ruby>昇<rt>のぼ</rt></ruby>る
@@ -38,6 +39,7 @@ lines:
         kana: のぼる
         romaji: noboru
         jisho: 昇る
+        taekim: ["3.10.3"]
         type: godan verb <ruby>昇<rt>のぼ</rt></ruby>る, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: to rise, to go up into the sky; the clause <ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>る modifies <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
       - jp: <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>
@@ -62,6 +64,12 @@ The line is a grammatical noun phrase, not a sentence. <ruby>日<rt>ひ</rt></ru
 {% include explain/tree.html n="012" %}
 
 <ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>る is a complete little clause, “the sun rises”, and it describes <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>. The whole line is one noun phrase. Grammatically it stands beside line 011’s noun phrase and does not depend on it. The link between the two is one of images, not of grammar.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="012" %}
+
+3.10.3 puts a whole verb clause before a noun, as <ruby>日<rt>ひ</rt></ruby>が<ruby>昇<rt>のぼ</rt></ruby>る comes before <ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>. Inside such a clause, が can become の (<ruby>日<rt>ひ</rt></ruby>の<ruby>昇<rt>のぼ</rt></ruby>る<ruby>場<rt>ば</rt>所<rt>しょ</rt></ruby>), which the book does not cover.
 
 {% include explain/line-end.html n="012" %}
 

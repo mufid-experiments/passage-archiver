@@ -30,6 +30,7 @@ lines:
         kana: を
         romaji: o
         jisho: を
+        taekim: ["3.8.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), direct object
         meaning: marks <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby> as what is found out
       - jp: <ruby>知<rt>し</rt></ruby>っ
@@ -37,6 +38,7 @@ lines:
         kana: しっ
         romaji: shit-
         jisho: 知る
+        taekim: ["3.5.3", "4.4.2", "4.5.2"]
         type: >-
           godan verb <ruby>知<rt>し</rt></ruby>る, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>知<rt>し</rt></ruby>り → <ruby>知<rt>し</rt></ruby>っ) before て
         meaning: to come to know, to find out, to learn (the moment of learning, not the state of knowing)
@@ -45,6 +47,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2", "5.3.1"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>知<rt>し</rt></ruby>っ to the subsidiary verb しまう
       - jp: しまっ
@@ -52,6 +55,7 @@ lines:
         kana: しまっ
         romaji: shimat-
         jisho: しまう
+        taekim: ["4.8.5", "5.3.1"]
         type: >-
           subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) しまう, continuative form with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: しまい → しまっ) before た
         meaning: >-
@@ -61,6 +65,7 @@ lines:
         kana: たら
         romaji: tara
         jisho: たら
+        taekim: ["4.8.5"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, conditional form (<ruby>仮<rt>か</rt>定<rt>てい</rt>形<rt>けい</rt></ruby>) たら
         meaning: >-
           “if, when”: closes the もしも of line 005; covers both clauses of the hypothesis
@@ -79,6 +84,12 @@ The line is grammatical. <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby>を (�
 {% include explain/tree.html n="006" %}
 
 もしも (line 005) opens the hypothesis and たら closes it. In between are two clauses, the first ending in the te-form (<ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃなくて) and the second in たら. The result clause that たら leads into is the open question for lines 007–008.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="006" %}
+
+<ruby>知<rt>し</rt></ruby>る looks like an ichidan verb but is a godan one (a u-verb, in the book’s terms). It is on the list in 3.5.3, which is why its te-form is <ruby>知<rt>し</rt></ruby>って. 4.5.2 explains that <ruby>知<rt>し</rt></ruby>る is an action, “find out”, as here, and that “know” is <ruby>知<rt>し</rt></ruby>っている. 4.8.5 makes the たら form from the past tense: しまった + ら.
 
 {% include explain/line-end.html n="006" %}
 

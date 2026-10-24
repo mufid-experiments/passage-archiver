@@ -20,6 +20,7 @@ lines:
         kana: よあけ
         romaji: yoake
         jisho: 夜明け
+        taekim: ["4.1.2"]
         type: noun, compound of <ruby>夜<rt>よ</rt></ruby> “night” + <ruby>明<rt>あ</rt></ruby>け (continuative of <ruby>明<rt>あ</rt></ruby>ける “(of night) end, (of day) break”)
         meaning: dawn, daybreak; here the time when the star shines, with に left out
       - jp: <ruby>光<rt>ひか</rt></ruby>る
@@ -27,6 +28,7 @@ lines:
         kana: ひかる
         romaji: hikaru
         jisho: 光る
+        taekim: ["3.10.3"]
         type: godan verb <ruby>光<rt>ひか</rt></ruby>る, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: to shine, to glitter; the clause (<ruby>夜<rt>よ</rt>明<rt>あ</rt></ruby>け)<ruby>光<rt>ひか</rt></ruby>る modifies <ruby>星<rt>ほし</rt></ruby>
       - jp: <ruby>星<rt>ほし</rt></ruby>
@@ -41,6 +43,7 @@ lines:
         kana: の
         romaji: "no"
         jisho: の
+        taekim: ["5.7.1"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: links <ruby>星<rt>ほし</rt></ruby> to ようだ (noun + の + ようだ)
       - jp: ように
@@ -48,6 +51,7 @@ lines:
         kana: ように
         romaji: yō ni
         jisho: ようだ
+        taekim: ["5.7.1"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ようだ, simile (<ruby>比<rt>ひ</rt>況<rt>きょう</rt></ruby>), continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “like, as”: an adverbial simile; the predicate it should modify is not on this line
@@ -66,6 +70,12 @@ The line is grammatical as a phrase, but it is not a sentence. <ruby>夜<rt>よ<
 {% include explain/tree.html n="013" %}
 
 <ruby>夜<rt>よ</rt>明<rt>あ</rt></ruby>け<ruby>光<rt>ひか</rt></ruby>る modifies <ruby>星<rt>ほし</rt></ruby>, and <ruby>星<rt>ほし</rt></ruby>のように makes the whole phrase a comparison: “like a star that shines at dawn”. The comparison is adverbial, so it is waiting for a verb or adjective. Line 014 gives the adverb <ruby>深<rt>ふか</rt></ruby>く and no verb, and only line 016’s <ruby>流<rt>なが</rt></ruby>れてゆく completes a ように in this section.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="013" %}
+
+5.7.1 covers よう after a noun with の (<ruby>学<rt>がく</rt>生<rt>せい</rt></ruby>のようだ “looks like it’s a student”) and ように as an adverb, “in a way like”. <ruby>夜<rt>よ</rt>明<rt>あ</rt></ruby>け is <ruby>夜<rt>よ</rt></ruby> + <ruby>明<rt>あ</rt></ruby>け, the stem of <ruby>明<rt>あ</rt></ruby>ける used as a noun (4.1.2). 3.8.2 notes that a time does not always need に: with it the time is a specific target, and without it there is no special emphasis.
 
 {% include explain/line-end.html n="013" %}
 

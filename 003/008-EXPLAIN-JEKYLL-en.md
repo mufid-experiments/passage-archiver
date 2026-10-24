@@ -30,6 +30,7 @@ lines:
         kana: の
         romaji: "no"
         jisho: の
+        taekim: ["3.11.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), attributive
         meaning: >-
           “of”: links まほろ to うたごえ; “the voice of” (belonging to it, or heard in it)
@@ -55,6 +56,12 @@ The line is a grammatical noun phrase with no predicate. まほろ is a noun, �
 {% include explain/tree.html n="008" %}
 
 まほろ modifies うたごえ through の. If line 007 is read as a description, it is a relative clause on うたごえ too, and lines 007–008 are one noun phrase: “the singing voice of mahoro that is enfolded in light and shadow”. If line 007 is read as the result of the “if”, this line stands alone after it as an image.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="008" %}
+
+The book covers the の (3.11.4), which joins two nouns so that the first describes the second. まほろ and うたごえ are vocabulary, and ending a line on a noun (<ruby>体<rt>たい</rt>言<rt>げん</rt>止<rt>ど</rt></ruby>め) is a matter of style that the book does not take up.
 
 {% include explain/line-end.html n="008" %}
 

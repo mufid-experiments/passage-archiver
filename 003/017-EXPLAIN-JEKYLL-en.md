@@ -23,6 +23,7 @@ lines:
         kana: ひとつひとつ
         romaji: hitotsu hitotsu
         jisho: ひとつひとつ
+        taekim: ["4.16.2"]
         type: noun <ruby>一<rt>ひと</rt></ruby>つ<ruby>一<rt>ひと</rt></ruby>つ used as an adverb
         meaning: one by one, each in turn; modifies <ruby>辿<rt>たど</rt></ruby>った
       - jp: <ruby>辿<rt>たど</rt></ruby>っ
@@ -30,6 +31,7 @@ lines:
         kana: たどっ
         romaji: tadot-
         jisho: 辿る
+        taekim: ["3.7.2", "3.10.3"]
         type: >-
           godan verb <ruby>辿<rt>たど</rt></ruby>る, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>辿<rt>たど</rt></ruby>り → <ruby>辿<rt>たど</rt></ruby>っ) before た
         meaning: to follow (a path, a trail), to trace (one’s way, one’s memories)
@@ -38,6 +40,7 @@ lines:
         kana: た
         romaji: ta
         jisho: た
+        taekim: ["3.7.2", "3.10.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) た, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           completion: “having followed”; the clause modifies <ruby>先<rt>さき</rt></ruby>
@@ -53,6 +56,7 @@ lines:
         kana: に
         romaji: ni
         jisho: に
+        taekim: ["3.8.2", "3.8.5"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), location
         meaning: >-
           “at”: the place where something is (with <ruby>待<rt>ま</rt></ruby>っている on line 018)
@@ -61,6 +65,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.8.5"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic / contrast
         meaning: >-
           “there, at least”: makes 〜<ruby>先<rt>さき</rt></ruby>に the topic of the sentence and sets that place apart from here
@@ -79,6 +84,12 @@ The line is grammatical but is not a sentence. ひとつひとつ<ruby>辿<rt>�
 {% include explain/tree.html n="017" %}
 
 ひとつひとつ modifies <ruby>辿<rt>たど</rt></ruby>った, and the clause modifies <ruby>先<rt>さき</rt></ruby>. に marks <ruby>先<rt>さき</rt></ruby> as a place, and は makes it the topic. Line 018 says what is there.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="017" %}
+
+ひとつ uses the general counter つ of 4.16.2; doubling it to ひとつひとつ “one by one” is not covered. 3.8.5 is には: a place marked with に and then made the topic, as in the book’s <ruby>図<rt>と</rt>書<rt>しょ</rt>館<rt>かん</rt></ruby>には？ “what about the library?”. <ruby>辿<rt>たど</rt></ruby>る is a godan verb ending in る, so its past is <ruby>辿<rt>たど</rt></ruby>った (3.7.2).
 
 {% include explain/line-end.html n="017" %}
 

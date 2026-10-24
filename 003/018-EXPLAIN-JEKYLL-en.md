@@ -30,6 +30,7 @@ lines:
         kana: が
         romaji: ga
         jisho: が
+        taekim: ["3.3.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby> as what is waiting; after the topic 〜<ruby>先<rt>さき</rt></ruby>には (line 017), が introduces what is found there
       - jp: <ruby>待<rt>ま</rt></ruby>っ
@@ -37,6 +38,7 @@ lines:
         kana: まっ
         romaji: mat-
         jisho: 待つ
+        taekim: ["4.4.2"]
         type: >-
           godan verb <ruby>待<rt>ま</rt></ruby>つ, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>待<rt>ま</rt></ruby>ち → <ruby>待<rt>ま</rt></ruby>っ) before て
         meaning: to wait, to await
@@ -45,6 +47,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2", "4.5.1"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>待<rt>ま</rt></ruby>っ to the subsidiary verb いる
       - jp: いる
@@ -52,6 +55,7 @@ lines:
         kana: いる
         romaji: iru
         jisho: いる
+        taekim: ["4.5.1"]
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) いる, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) before ん
         meaning: >-
           〜ている, an ongoing state: “is waiting” (already there, waiting)
@@ -60,6 +64,7 @@ lines:
         kana: ん
         romaji: n
         jisho: の
+        taekim: ["3.11.5"]
         type: nominalizing particle (<ruby>準<rt>じゅん</rt>体<rt>たい</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>) の, contracted to ん
         meaning: >-
           the explanatory の of のだ / んだ: frames the line as a conclusion or explanation
@@ -68,6 +73,7 @@ lines:
         kana: だろ
         romaji: daro
         jisho: だ
+        taekim: ["5.5.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) だ, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: copula; with う, forms だろう
       - jp: う
@@ -75,6 +81,7 @@ lines:
         kana: う
         romaji: u
         jisho: う
+        taekim: ["5.5.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) う, conjecture (<ruby>推<rt>すい</rt>量<rt>りょう</rt></ruby>)
         meaning: >-
           “probably, I suppose”: だろう marks the line as the speaker’s guess
@@ -93,6 +100,12 @@ The line is grammatical and closes the sentence that line 017 opened: ひとつ�
 {% include explain/tree.html n="018" %}
 
 Line 017’s 〜<ruby>先<rt>さき</rt></ruby>には sets the place and the topic. <ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby>が<ruby>待<rt>ま</rt></ruby>っている says what is there, and んだろう wraps the statement as the speaker’s inference. The sentence ends here.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="018" %}
+
+4.5.1 is 〜ている for an action going on, here “is waiting”. 3.11.5 explains why のだ is usually said as んだ, and 5.5.3 has the line’s whole ending in one of its examples: もう<ruby>家<rt>いえ</rt></ruby>に<ruby>帰<rt>かえ</rt></ruby>るんだろう “you’re going home already, right?”. The book says だろう sounds masculine in speech; in writing, and in lyrics like these, it is the ordinary plain form of でしょう.
 
 {% include explain/line-end.html n="018" %}
 

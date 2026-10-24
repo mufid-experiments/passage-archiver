@@ -23,6 +23,7 @@ lines:
         kana: ふれ
         romaji: fure
         jisho: 触れる
+        taekim: ["3.10.3", "4.6.2"]
         type: ichidan verb <ruby>触<rt>ふ</rt></ruby>れる, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to touch, to come into contact with; takes に for what is touched (〜に<ruby>触<rt>ふ</rt></ruby>れる)
       - jp: られ
@@ -30,6 +31,7 @@ lines:
         kana: られ
         romaji: rare
         jisho: られる
+        taekim: ["3.6.1", "3.10.3", "4.6.2"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) られる, potential, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>) before ない
         meaning: >-
           “can”: <ruby>触<rt>ふ</rt></ruby>れられる = “can touch”. The same ending can also be passive (“be touched”), but the parallel with <ruby>見<rt>み</rt></ruby>えない on line 001 makes it potential
@@ -38,6 +40,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.6.1", "3.10.3"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) ない, negative, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>触<rt>ふ</rt></ruby>れられない = “that can’t be touched”; the clause modifies もの
@@ -54,6 +57,7 @@ lines:
         kana: ばかり
         romaji: bakari
         jisho: ばかり
+        taekim: ["5.6.4"]
         type: adverbial particle (<ruby>副<rt>ふく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “nothing but, only”: limits the object to one kind of thing, usually with a sense of imbalance; here it stands in for を, and the verb follows on line 004
@@ -72,6 +76,12 @@ The line is grammatical but is not a sentence. <ruby>触<rt>ふ</rt></ruby>れ�
 {% include explain/tree.html n="003" %}
 
 <ruby>触<rt>ふ</rt></ruby>れられない is a relative clause on もの. Its gap is the に-object of <ruby>触<rt>ふ</rt></ruby>れる: the things one can’t touch. ばかり narrows the phrase to “nothing but those things”. The verb it belongs to, <ruby>求<rt>もと</rt></ruby>めて, opens line 004, and のは　なぜ then turns the whole clause into a question.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="003" %}
+
+4.6.2 also gives the shorter form with れる for られる (<ruby>食<rt>た</rt></ruby>べれる for <ruby>食<rt>た</rt></ruby>べられる), common but counted as slang. The song keeps the standard <ruby>触<rt>ふ</rt></ruby>れられる. The passive of an ichidan verb has the same shape (5.1.2), but here only the potential fits. 5.6.4 sets ばかり against だけ: so much of one thing that there is room for nothing else.
 
 {% include explain/line-end.html n="003" %}
 

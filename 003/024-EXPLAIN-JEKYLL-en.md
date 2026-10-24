@@ -27,6 +27,7 @@ lines:
         kana: なんか
         romaji: nanka
         jisho: なんか
+        taekim: ["4.17.6"]
         type: adverbial particle (<ruby>副<rt>ふく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), casual
         meaning: >-
           “the likes of, some (mere) ~”: belittles the word before it, here to reject it
@@ -35,6 +36,7 @@ lines:
         kana: じゃ
         romaji: ja
         jisho: じゃ
+        taekim: ["3.2.2"]
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: spoken では in a negative noun predicate
@@ -43,6 +45,7 @@ lines:
         kana: ない
         romaji: nai
         jisho: ない
+        taekim: ["3.2.2"]
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “is not”: closes the first sentence
@@ -51,6 +54,7 @@ lines:
         kana: ぼく
         romaji: boku
         jisho: 僕
+        taekim: ["4.2.1"]
         type: pronoun (<ruby>代<rt>だい</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>), first person
         meaning: I; casual, traditionally male, but common in songs by singers of any gender
       - jp: たち
@@ -65,6 +69,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: “as for us”
       - jp: <ruby>知<rt>し</rt></ruby>っ
@@ -72,6 +77,7 @@ lines:
         kana: しっ
         romaji: shit-
         jisho: 知る
+        taekim: ["3.5.3", "4.4.2", "4.5.2"]
         type: >-
           godan verb <ruby>知<rt>し</rt></ruby>る, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) with sound change to small っ (<ruby>促<rt>そく</rt>音<rt>おん</rt>便<rt>びん</rt></ruby>: <ruby>知<rt>し</rt></ruby>り → <ruby>知<rt>し</rt></ruby>っ) before て
         meaning: to come to know; with (い)る, “know”
@@ -80,6 +86,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2", "4.5.1", "4.5.2"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>知<rt>し</rt></ruby>っ to the subsidiary verb (い)る
       - jp: る
@@ -87,6 +94,7 @@ lines:
         kana: る
         romaji: ru
         jisho: いる
+        taekim: ["4.5.1", "4.5.2"]
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) いる, contracted (ている → てる), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) before はず
         meaning: >-
           state: <ruby>知<rt>し</rt></ruby>ってる = “know”
@@ -95,6 +103,7 @@ lines:
         kana: はず
         romaji: hazu
         jisho: はず
+        taekim: ["6.2.1"]
         type: formal noun (<ruby>形<rt>けい</rt>式<rt>しき</rt>名<rt>めい</rt>詞<rt>し</rt></ruby>) <ruby>筈<rt>はず</rt></ruby>
         meaning: >-
           “should, must (by all reason)”: firm expectation; the copula だ is left unsaid
@@ -113,6 +122,12 @@ The line is grammatical and falls into two parts at the full-width space. <ruby>
 {% include explain/tree.html n="024" %}
 
 The first half is a whole sentence with its subject left out. In the second half, <ruby>僕<rt>ぼく</rt></ruby>たちは is the topic and <ruby>知<rt>し</rt></ruby>ってるはず the predicate. The thing known is most naturally the first half, so the line can be heard as one thought said in reverse order: “it’s no illusion, and we know it”.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="024" %}
+
+4.17.6 is mostly about なんか as a filler, but one of its examples has it after a noun, as here: <ruby>私<rt>わたし</rt></ruby>のことなんか “someone like me”. 4.5.1 notes that the い of 〜ている is often dropped in speech, which gives <ruby>知<rt>し</rt></ruby>ってる, and 4.5.2 explains that “know” is <ruby>知<rt>し</rt></ruby>っている, a state. <ruby>知<rt>し</rt></ruby>る is a godan verb that looks ichidan (3.5.3), hence <ruby>知<rt>し</rt></ruby>って. 6.2.1 treats はず as a noun after the verb: “is supposed to”. たち, the plural suffix of <ruby>僕<rt>ぼく</rt></ruby>たち, has no section.
 
 {% include explain/line-end.html n="024" %}
 

@@ -30,6 +30,7 @@ lines:
         kana: と
         romaji: to
         jisho: と
+        taekim: ["3.11.2"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), parallel (<ruby>並<rt>へい</rt>立<rt>りつ</rt></ruby>)
         meaning: >-
           “and”: joins <ruby>光<rt>ひかり</rt></ruby> and <ruby>影<rt>かげ</rt></ruby> in a closed pair
@@ -45,6 +46,7 @@ lines:
         kana: に
         romaji: ni
         jisho: に
+        taekim: ["5.1.2"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), agent of the passive
         meaning: >-
           “by, in”: marks what does the wrapping, 〜に<ruby>包<rt>つつ</rt></ruby>まれる “be wrapped in ~”
@@ -53,6 +55,7 @@ lines:
         kana: つつま
         romaji: tsutsuma
         jisho: 包む
+        taekim: ["3.10.3", "5.1.2"]
         type: godan verb <ruby>包<rt>つつ</rt></ruby>む, irrealis form (<ruby>未<rt>み</rt>然<rt>ぜん</rt>形<rt>けい</rt></ruby>)
         meaning: to wrap, to envelop
       - jp: れ
@@ -60,6 +63,7 @@ lines:
         kana: れ
         romaji: re
         jisho: れる
+        taekim: ["3.10.3", "4.4.2", "5.1.2"]
         type: auxiliary verb (<ruby>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) れる, passive, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>) before て
         meaning: <ruby>包<rt>つつ</rt></ruby>まれる = “be wrapped, be enveloped”
       - jp: て
@@ -67,6 +71,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["3.10.3", "4.4.2", "4.5.5"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>包<rt>つつ</rt></ruby>まれ to the subsidiary verb いく
       - jp: いく
@@ -74,6 +79,7 @@ lines:
         kana: いく
         romaji: iku
         jisho: いく
+        taekim: ["3.10.3", "4.5.5"]
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) いく (<ruby>行<rt>い</rt></ruby>く), attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) here; the terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>) looks the same
         meaning: “go on ~ing, more and more”; most naturally modifies うたごえ on line 020
 ---
@@ -91,6 +97,12 @@ The line is grammatical and repeats line 007 word for word. <ruby>光<rt>ひか�
 {% include explain/tree.html n="019" %}
 
 <ruby>光<rt>ひかり</rt></ruby>と<ruby>影<rt>かげ</rt></ruby>に<ruby>包<rt>つつ</rt></ruby>まれていく is a relative clause, and its head is うたごえ on line 020. The subject of <ruby>包<rt>つつ</rt></ruby>まれていく is that voice: it is the voice that is wrapped in light and shadow. だけ and <ruby>響<rt>ひび</rt></ruby>く on line 020 then complete the sentence.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="019" %}
+
+The examples in 5.1.2 mark the doer of a passive verb with に, as in ポリッジが<ruby>誰<rt>だれ</rt></ruby>かに<ruby>食<rt>た</rt></ruby>べられた “the porridge was eaten by somebody”; here light and shadow do the wrapping. 4.5.5 ends with 〜ていく in time, an action carried on toward the future (<ruby>頑<rt>がん</rt>張<rt>ば</rt></ruby>っていく “keep on trying”), which is the “go on being wrapped” of this line. 3.11.3 sets と against や, which would hint at more than light and shadow. 3.10.3 is there because here the clause describes the voice on line 020.
 
 {% include explain/line-end.html n="019" %}
 

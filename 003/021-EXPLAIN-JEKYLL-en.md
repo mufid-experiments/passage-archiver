@@ -30,6 +30,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           “as for it”: the topic of lines 021–022
@@ -45,6 +46,7 @@ lines:
         kana: に
         romaji: ni
         jisho: に
+        taekim: ["3.8.2"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), destination
         meaning: >-
           “to”: where the link leads
@@ -53,6 +55,7 @@ lines:
         kana: つなぐ
         romaji: tsunagu
         jisho: つなぐ
+        taekim: ["3.10.3"]
         type: godan verb つなぐ (<ruby>繋<rt>つな</rt></ruby>ぐ), terminal form (<ruby>終<rt>しゅう</rt>止<rt>し</rt>形<rt>けい</rt></ruby>) or attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>), which look the same
         meaning: to connect, to link, to pass on; the object is unsaid
       - jp: <ruby>過<rt>か</rt>去<rt>こ</rt></ruby>
@@ -67,6 +70,7 @@ lines:
         kana: に
         romaji: ni
         jisho: に
+        taekim: ["3.8.2"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), destination
         meaning: “to”
       - jp: つなぐ
@@ -74,6 +78,7 @@ lines:
         kana: つなぐ
         romaji: tsunagu
         jisho: つなぐ
+        taekim: ["3.10.3"]
         type: godan verb つなぐ, terminal or attributive form
         meaning: >-
           “connects”: repeats the first verb, now toward the past
@@ -98,6 +103,12 @@ The line is grammatical. それは is the topic, and the nearest thing it can po
 {: .tree-src}
 
 In (a), the verbs are predicates of それ, and line 022 stands beside them. In (b), the verbs are modifiers, and the predicate of それは is the noun <ruby>調<rt>しら</rt></ruby>べ on line 022. Either way, それ is the voice, and the voice is what links the times.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="021" %}
+
+3.8.2’s に marks the target of an action, here what something is connected to: <ruby>未<rt>み</rt>来<rt>らい</rt></ruby>につなぐ “connect to the future”. Setting the two phrases side by side with nothing between them is a matter of style that the book does not take up. 3.10.3 is for the second reading, in which つなぐ describes the melody on line 022.
 
 {% include explain/line-end.html n="021" %}
 

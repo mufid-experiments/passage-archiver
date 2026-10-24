@@ -23,6 +23,7 @@ lines:
         kana: もしも
         romaji: moshimo
         jisho: もしも
+        taekim: ["4.8.6"]
         type: adverb (<ruby>副<rt>ふく</rt>詞<rt>し</rt></ruby>), the emphatic form of もし
         meaning: >-
           “if, supposing, by any chance”: announces a conditional; its ending is たら on line 006
@@ -39,6 +40,7 @@ lines:
         kana: が
         romaji: ga
         jisho: が
+        taekim: ["3.3.4"]
         type: case particle (<ruby>格<rt>かく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), subject
         meaning: marks それ as the subject of <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃない
       - jp: <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>
@@ -53,6 +55,7 @@ lines:
         kana: じゃ
         romaji: ja
         jisho: じゃ
+        taekim: ["3.2.2", "4.4.1"]
         type: >-
           contraction of では: copula だ in its continuative form で + binding particle は
         meaning: >-
@@ -62,6 +65,7 @@ lines:
         kana: なく
         romaji: naku
         jisho: ない
+        taekim: ["3.2.2", "4.4.1"]
         type: auxiliary adjective (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>形<rt>けい</rt>容<rt>よう</rt>詞<rt>し</rt></ruby>) ない, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: >-
           “not”: <ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃない = “is not the truth”
@@ -70,6 +74,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.1"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: >-
           “…and”: links this clause to line 006, so that the conditional covers both
@@ -88,6 +93,12 @@ The line is grammatical but is not a sentence. もしも (“if, supposing”) a
 {% include explain/tree.html n="005" %}
 
 もしも sits at the front of the whole hypothesis. それが<ruby>真<rt>しん</rt>実<rt>じつ</rt></ruby>じゃない is its first clause, put into the te-form so that it doesn’t end. Line 006 adds the second clause and the conditional ending たら, which closes the “if” for both.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="005" %}
+
+4.8.6 is about もし. It does not make an “if” by itself but adds “by any chance” to a conditional that does, here たら on line 006. もしも, the emphatic form, has no section of its own. 4.4.1 makes じゃなくて from じゃない, as in <ruby>彼<rt>かの</rt>女<rt>じょ</rt></ruby>は、<ruby>学<rt>がく</rt>生<rt>せい</rt></ruby>じゃなくて、<ruby>先<rt>せん</rt>生<rt>せい</rt></ruby>だ “she isn’t a student, she’s a teacher”. じゃ is short for では: the book uses じゃない for the plain negative (3.2.2) and ではない in formal writing (6.1.3).
 
 {% include explain/line-end.html n="005" %}
 

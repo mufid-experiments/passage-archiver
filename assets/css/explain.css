@@ -268,6 +268,30 @@ html:not(.popover-ready) .pop-step { display: none; }
 .jisho .site { margin-left: .5em; color: var(--faint); font-size: .8em; }
 .jisho .site::after { content: " ↗"; }
 
+/* A section of Tae Kim's book: its number and title, linked to the online
+   guide, then its page */
+.taekim { color: var(--accent); text-decoration: none; }
+a.taekim:hover { text-decoration: underline; text-underline-offset: .2em; }
+a.taekim::after { content: " ↗"; color: var(--faint); font-size: .8em; }
+.taekim .num { font-weight: 650; font-variant-numeric: tabular-nums; }
+.taekim + .page { margin-left: .4em; color: var(--faint); font-size: .8em; white-space: nowrap; }
+
+/* In Tae Kim's guide: the words of the line, each group beside its section */
+.taekim-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: .35rem 1.1rem;
+  margin: .7rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.taekim-list li { display: contents; }
+.taekim-for { font-family: var(--serif-jp); font-size: 1.15rem; line-height: 1.9; white-space: nowrap; }
+.taekim-words .w + .w { margin-left: .12em; }
+.taekim-gap { margin: 0 .3em; color: var(--faint); }
+.taekim-sec { line-height: 1.6; }
+
 @media (max-width: 34rem) {
   .wrap { padding-top: 1.5rem; }
   .line { padding: 1rem 1.1rem 1.25rem; }

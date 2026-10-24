@@ -21,6 +21,7 @@ lines:
         kana: もとめ
         romaji: motome
         jisho: 求める
+        taekim: ["4.4.2"]
         type: ichidan verb <ruby>求<rt>もと</rt></ruby>める, continuative form (<ruby>連<rt>れん</rt>用<rt>よう</rt>形<rt>けい</rt></ruby>)
         meaning: to seek, to look for, to want, to ask for; its object is line 003’s <ruby>触<rt>ふ</rt></ruby>れられないものばかり
       - jp: て
@@ -28,6 +29,7 @@ lines:
         kana: て
         romaji: te
         jisho: て
+        taekim: ["4.4.2", "5.3.1"]
         type: conjunctive particle (<ruby>接<rt>せつ</rt>続<rt>ぞく</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), te-form
         meaning: joins <ruby>求<rt>もと</rt></ruby>め to the subsidiary verb しまう
       - jp: しまう
@@ -35,6 +37,7 @@ lines:
         kana: しまう
         romaji: shimau
         jisho: しまう
+        taekim: ["5.3.1"]
         type: subsidiary verb (<ruby>補<rt>ほ</rt>助<rt>じょ</rt>動<rt>どう</rt>詞<rt>し</rt></ruby>) しまう, attributive form (<ruby>連<rt>れん</rt>体<rt>たい</rt>形<rt>けい</rt></ruby>) before の
         meaning: >-
           “end up ~ing, can’t help ~ing”: the seeking happens even though one might not mean or wish it to
@@ -43,6 +46,7 @@ lines:
         kana: の
         romaji: "no"
         jisho: の
+        taekim: ["3.11.4"]
         type: nominalizing particle (<ruby>準<rt>じゅん</rt>体<rt>たい</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>)
         meaning: >-
           “the fact that, (the reason) that”: turns <ruby>求<rt>もと</rt></ruby>めてしまう into a noun phrase
@@ -51,6 +55,7 @@ lines:
         kana: は
         romaji: wa
         jisho: は
+        taekim: ["3.3.2"]
         type: binding particle (<ruby>係<rt>かかり</rt>助<rt>じょ</rt>詞<rt>し</rt></ruby>), topic
         meaning: >-
           makes that fact the topic: “as for (our) ending up seeking…”
@@ -77,6 +82,12 @@ The line is grammatical and ends the sentence that line 003 began. <ruby>求<rt>
 {% include explain/tree.html n="004" %}
 
 Line 003 supplies the object, and <ruby>求<rt>もと</rt></ruby>めてしまう is its verb. の wraps the whole clause up as a noun, は sets it out as the topic, and なぜ is the question about it: “the fact that we end up seeking only what we can’t touch: why?”.
+
+### In Tae Kim’s guide
+
+{% include explain/taekim.html n="004" %}
+
+5.3.1 is しまう after a te-form, for something done or happening without meaning to: here, “end up seeking”. Its casual form 〜ちゃう is in 5.3.2. 3.11.4 shows の turning a verb clause into a noun, as in <ruby>毎<rt>まい</rt>日<rt>にち</rt></ruby><ruby>勉<rt>べん</rt>強<rt>きょう</rt></ruby>するのは<ruby>大<rt>たい</rt>変<rt>へん</rt></ruby> “studying every day is tough”, which is the 〜のは of this line. なぜ has no section; 4.4.3 asks “why” with どうして.
 
 {% include explain/line-end.html n="004" %}
 
