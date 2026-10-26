@@ -16,6 +16,12 @@ the lines that have an explanation page. Each explanation page lists the
 lines of its passage beside it the same way, with its own line marked;
 on a narrow screen, ☰ in the bar at the top opens that list.
 
+## Publishing
+
+`.github/workflows/pages.yml` builds the site and deploys it to GitHub Pages on
+each push to `main` (pull requests only build it). Once, in the repository
+settings, set Pages → Source to **GitHub Actions**.
+
 ## Explanation pages
 
 `NNN/LLL-EXPLAIN-JEKYLL-<lang>.md` explains line LLL of passage NNN, in
