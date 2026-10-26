@@ -32,7 +32,8 @@ settings, set Pages → Source to **GitHub Actions**.
   `lines`, one entry per explained line under its number in quotes
   (`"001":`): `verdict` (`valid` or `invalid`), `chip` and `summary`,
   `kana`, `romaji`, `natural`, `literal`, an optional `joined` (`with`,
-  `text`), `tree` and `words`. `context` gives the furigana of lines
+  `text`; `with` is a line, `"002"`, or several, `"014–015"`),
+  `tree` and `words`. `context` gives the furigana of lines
   that are shown but not explained
   (`"003": <ruby>触<rt>ふ</rt></ruby>れられないものばかり`).
 - **Words**: `jp`, `pos` (`noun`, `verb`, `adj`, `aux`, `particle`,

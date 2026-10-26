@@ -22,6 +22,7 @@ verdict:
   invalid: Not valid
 literal: Literal
 with_line: With line
+with_lines: With lines
 line_ref: line
 type: Type
 meaning: Meaning / function

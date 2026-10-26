@@ -24,6 +24,6 @@
   <p class="natural">{{ l.natural | jp }}</p>
   <p class="literal"><span class="tag">{{ t.literal }}</span>{{ l.literal | jp }}</p>
 {%- if l.joined %}
-  <p class="joined"><span class="tag">{{ t.with_line }} {{ l.joined.with }}</span>{{ l.joined.text | jp }}</p>
+  <p class="joined"><span class="tag">{% if l.joined.with contains "–" or l.joined.with contains "," %}{{ t.with_lines }}{% else %}{{ t.with_line }}{% endif %} {{ l.joined.with }}</span>{{ l.joined.text | jp }}</p>
 {%- endif %}
 </div>
